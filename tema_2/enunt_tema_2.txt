@@ -1,0 +1,38 @@
+Tema 2 - Capitolul 2
+
+"utilizator" -> cel care interactioneaza cu Terminalul prin input 
+
+1. Calculator simplu
+
+    Cere două numere de la utilizator
+    Afișează suma, diferența, produsul, împărțirea normală, împărțirea întreagă și restul împărțirii
+
+2. Perimetrul și aria unui dreptunghi
+
+    Cere lungimea și lățimea de la utilizator
+    Calculează și afișează perimetrul și aria
+
+3. Comparare numere
+
+    Cere două numere de la utilizator
+    Afișează dacă primul este mai mare, mai mic sau egal cu al doilea
+    (3 printuri)
+
+4. Verificare număr par sau impar
+
+    Cere un număr de la utilizator
+    Afișează dacă este par sau impar
+
+5. Calculul vârstei
+
+    Cere de la utilizator anul nașterii și calculează vârsta actuală.
+    Folosește anul curent.
+
+6. Exercițiu bonus – Conversia timpului
+
+    Cere de la utilizator un număr de secunde și afișează:
+    Câte ore, minute și secunde reprezintă
+
+    Exemplu:
+        Input: 3665
+        Output: 1 oră, 1 minut, 5 secunde
