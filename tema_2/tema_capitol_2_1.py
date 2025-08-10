@@ -2,13 +2,13 @@
 #     Cere două numere de la utilizator
 #     Afișează suma, diferența, produsul, împărțirea normală, împărțirea întreagă și restul împărțirii
 
-print(str(n1 := int(input("Numar 1: "))).removeprefix(str(n1)),
-      str(n2 := int(input("Numar 2: "))).replace(str(n2), ""),
-      '\nsuma:'.ljust(22),                  n1 + n2,
-      '\ndiferența:'.ljust(22),             n1 - n2,
-      '\nprodusul:'.ljust(22),              n1 * n2,
-      '\nîmpărțirea normală:'.ljust(22),    n1 / n2 if n2 else "NaN",
-      '\nîmpărțirea întreagă:'.ljust(22),   n1 //n2 if n2 else "NaN",
-      '\nrestul împărțirii:'.ljust(22),     n1 % n2 if n2 else float('nan'),
+print(str(first_operand := int(input("Numar 1: "))).removeprefix(str(first_operand)),
+      str(second_operand := int(input("Numar 2: "))).replace(str(second_operand), ""),
+      '\nsuma:'.ljust(22),                  first_operand + second_operand,
+      '\ndiferența:'.ljust(22),             first_operand - second_operand,
+      '\nprodusul:'.ljust(22),              first_operand * second_operand,
+      '\nîmpărțirea normală:'.ljust(22),    first_operand / second_operand if second_operand else "NaN",
+      '\nîmpărțirea întreagă:'.ljust(22),   first_operand //second_operand if second_operand else "NaN",
+      '\nrestul împărțirii:'.ljust(22),     first_operand % second_operand if second_operand else float('nan'),
       sep='')
 

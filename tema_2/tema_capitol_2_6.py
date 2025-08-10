@@ -5,9 +5,9 @@
 #         Input: 3665
 #         Output: 1 oră, 1 minut, 5 secunde
 
-print(str(s := int(input("Secunde: "))).removeprefix(str(s)),
+print(str(total_seconds := int(input("Secunde: "))).removeprefix(str(total_seconds)),
       "Output:",
-      h := s // 3600, "oră" if h == 1 else "ore", ":",
-      m := (s // 60) % 60, "minut" if m == 1 else "minute", ":",
-      sec := s % 60, "secundă" if sec == 1 else "secunde")  
+      hours := total_seconds // 3600, "oră" if hours == 1 else "ore", ":",
+      minutes := (total_seconds // 60) % 60, "minut" if minutes == 1 else "minute", ":",
+      seconds := total_seconds % 60, "secundă" if seconds == 1 else "secunde")  
 
