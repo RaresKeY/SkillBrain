@@ -2,6 +2,6 @@
 #     Cere lungimea și lățimea de la utilizator
 #     Calculează și afișează perimetrul și aria
 
-print(f"{'Perimetrul:':11} {2 * (l := int(input('lungimea: '))) + 2 * (w := int(input('latimea: ')))}",
-      f"\n{'Aria:':11} {l * w}")
+print(f"{'Perimetrul:':11} {2 * (length := int(input('lungimea: '))) + 2 * (width := int(input('latimea: ')))}",
+      f"\n{'Aria:':11} {length * width}")
       
