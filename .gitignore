@@ -1,7 +1,31 @@
-/test_tema.txt
-/notite_capitol2.py
-/Hello World.py
+# Python virtual environments
 .venv/
 venv/
 env/
+
+# Untracked upstream
+/test_tema.txt
+/notite_capitol2.py
+/Hello World.py
+
+# Session exercises
 /sessions
+
+# Python cache / build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+build/
+dist/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
