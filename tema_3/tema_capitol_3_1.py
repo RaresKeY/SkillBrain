@@ -10,7 +10,9 @@
 #     Dacă doar una dintre cele două este corectă (numele de utilizator sau parola) → afișează "User/Password incorect".
 #     Dacă ambele sunt greșite → afișează "Acces respins".
 
-import hmac, hashlib, getpass
+import hmac
+import hashlib
+import getpass
 
 # Stored from "registration"
 # ---------------------------------------------------------------------------------------
@@ -24,13 +26,12 @@ password_stored = hashlib.pbkdf2_hmac('sha256', b"plaintext_password", salt_byte
 username_input = input("Username: ")
 password_input_passed = hmac.compare_digest(hashlib.pbkdf2_hmac('sha256', getpass.getpass("Password: ").encode('utf-8'), salt_bytes, iters), password_stored)
 
-if username_input != username_stored and not password_input_passed:
-    print("Acces respins")
-elif username_input != username_stored or not password_input_passed:
-    print("User/Password incorect")
-elif username_input == username_stored and password_input_passed:
+if username_input == username_stored and password_input_passed:
     print("Acces permis")
+elif username_input != username_stored and not password_input_passed:
+    print("Acces respins")
 else:
-    print("Something went wrong") # redundant, cannot trigger
+    print("User/Password incorect")
+
 
 
