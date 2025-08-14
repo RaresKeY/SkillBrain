@@ -24,11 +24,11 @@ password_stored = hashlib.pbkdf2_hmac('sha256', b"plaintext_password", salt_byte
 # I wouldn't put password as plaintext in source code in a real implemention IMO
 
 username_input = input("Username: ")
-password_input_passed = hmac.compare_digest(hashlib.pbkdf2_hmac('sha256', getpass.getpass("Password: ").encode('utf-8'), salt_bytes, iters), password_stored)
+password_ok = hmac.compare_digest(hashlib.pbkdf2_hmac('sha256', getpass.getpass("Password: ").encode('utf-8'), salt_bytes, iters), password_stored)
 
-if username_input == username_stored and password_input_passed:
+if username_input == username_stored and password_ok:
     print("Acces permis")
-elif username_input != username_stored and not password_input_passed:
+elif username_input != username_stored and not password_ok:
     print("Acces respins")
 else:
     print("User/Password incorect")
