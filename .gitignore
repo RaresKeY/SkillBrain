@@ -12,6 +12,7 @@ env/
 # Session exercises
 /sessions
 /course
+/hw_templates
 
 # Python cache / build files
 __pycache__/
