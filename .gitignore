@@ -2,6 +2,7 @@
 .venv/
 venv/
 env/
+.env
 
 # Untracked upstream
 /test_tema.txt
