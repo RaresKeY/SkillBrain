@@ -3,6 +3,10 @@
 venv/
 env/
 .env
+.env.local
+.env.dev
+.env.prod
+.env.example
 
 # Untracked upstream
 /test_tema.txt
@@ -14,6 +18,9 @@ env/
 /sessions
 /course
 /hw_templates
+/homework/hw_adv/tema_3/tema_3.ipynb
+/homework/hw_adv/tema_4/_data_extra
+/homework/hw_adv/**/requirements.txt
 
 # Python cache / build files
 __pycache__/
