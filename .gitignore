@@ -23,9 +23,9 @@ env/
 
 # Specific ignores
 /hw_templates
-/homework/hw_adv/tema_3/tema_3.ipynb
-/homework/hw_adv/tema_4/_data_extra
-/homework/hw_adv/**/requirements.txt
+/assignments/hw_adv/tema_3/tema_3.ipynb
+/assignments/hw_adv/tema_4/_data_extra
+/assignments/hw_adv/**/requirements.txt
 
 # Python cache / build files
 __pycache__/
