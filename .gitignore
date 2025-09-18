@@ -2,6 +2,8 @@
 .venv/
 venv/
 env/
+
+# Environment variables
 .env
 .env.local
 .env.dev
@@ -17,6 +19,8 @@ env/
 # Session exercises
 /sessions
 /course
+
+# Specific ignores
 /hw_templates
 /homework/hw_adv/tema_3/tema_3.ipynb
 /homework/hw_adv/tema_4/_data_extra
