@@ -50,35 +50,6 @@ Can you Imagine a way to do this? 🤔
 
 #### [x] VI. Rezultat final – Afișează cine a câștigat și actualizează bugetul jucătorului.
 
-### Extra Optional:
-#### [ ] VII. Basic Graphics
-- [ ] Card overlay (number + symbol)
-- [ ] Card images background (AI Gen flow, check on process established)
-- [ ] Table Texture background (AI Gen flow)
-- [ ] Dealer Character 2D (AI Gen flow)
-    - [ ] Multiple poses (see animation)
-- [ ] Hand 2D (AI Gen flow)
-
-#### [ ] VIII. Basic Sound Design 
-- [ ] Music
-- [ ] Sound Effects
-- [ ] Voice lines (AI Gen - MelloTTS + whisper check flow)
-
-#### [ ] IX. Basic Physics
-- [ ] Card throw button
-- [ ] Card collisions
-- [ ] Card moves other cards on top slightly, paper
-
-#### [ ] X. Basic Animations
-- [ ] Basic 2D Sprite stretcha and pull
-- [ ] Dealer basic switch pic animations style
-- [ ] Basic 3d
-- [ ] Dealing flow
-- [ ] Paper rigging
-
-#### [ ] XI. 
-
-
 > Vizualizeaza clar Flow-ul Algoritmului la fiecare pas.
 >
 > Apoi, pune-l in cod.
