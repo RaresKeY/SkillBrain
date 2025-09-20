@@ -81,9 +81,11 @@ sys_rand = random.SystemRandom()
 NUMBER_CARDS = [str(i) for i in range(2, 11)]
 FACE_CARDS = ['J', 'Q', 'K']
 ACE = ['A']
+SUITS = ["♠️", "♣️", "♥️", "♦️"]
+RANKS = NUMBER_CARDS + FACE_CARDS + ACE
 
 # one full deck
-ORIGIN_DECK = NUMBER_CARDS * 4 + FACE_CARDS * 4 + ACE * 4
+ORIGIN_DECK = [card + ' ' + suit + ' ' for card in RANKS for suit in SUITS]
 
 # debug stuff, verbosity
 DEBUG = True
@@ -95,6 +97,7 @@ def check_hand(hand: list[str]) -> dict:
     score = 0
     ace_count = 0
     for card in hand:
+        card = card.split()[0] # TODO: make better fix than this quick fix
         if card in FACE_CARDS:
             score += 10
         elif card in ACE:
@@ -111,13 +114,14 @@ def check_hand(hand: list[str]) -> dict:
     return {"score": score, "busted": score > 21}
 
 
-def hit(player: dict, deck: list, count: int = 1):
+def hit(player: dict, deck: list, count: int = 1, debug=False):
     """change player hand in place, remove from deck in place"""
     for _ in range(count):
         random_card = sys_rand.choice(deck)
         deck.remove(random_card)
         player["cards"].append(random_card)
-        print(f"You hit {random_card}")
+        if debug:
+            print(f"You hit {random_card}")
 
 
 def initial_deal(players: list[dict], dealer: dict, deck: list):
@@ -193,11 +197,11 @@ def run_action_player(action: str, player:dict, deck: list, debug=DEBUG):
         if debug: print("Hit!")
         hit(player, deck, 1)
 
-    if action == "stand":
+    elif action == "stand":
         if debug: print("Stand!")
         player["stand"] = True
 
-    if action == "double_down":
+    elif action == "double_down" and player["money"] >= player["bet"] * 2:
         if debug: print("Double Down!")
         hit(player, deck, 1)
         player["bet"] = player["bet"] * 2
@@ -215,26 +219,28 @@ def run_action_player(action: str, player:dict, deck: list, debug=DEBUG):
 def player_bust(player, debug=DEBUG):
     """boilerplate bust code"""
     if debug:
-        print(f"Player {player["name"]} busted with score {player["score"]}, ",
+        print(f"Player {player["name"]} busted with score {player["score"]},",
               f"losing {player["bet"]}$")
+        print(player["cards"])
     player["busted"] = True
     player["stand"] = True
     player["money"] -= player["bet"]
     player["bet"] = None
-    player["score"] = None
+    player["score"] = 0
     player["cards"] = []
 
 
 def player_win(player, debug=DEBUG):
     """boilerplate win code"""
     if debug:
-        print(f"Player {player["name"]} won with score {player["score"]}, ",
+        print(f"Player {player["name"]} won with score {player["score"]},",
               f"winning {player["bet"]}$")
+        print(player["cards"])
     player["busted"] = False
     player["stand"] = False
     player["money"] += player["bet"]
     player["bet"] = None
-    player["score"] = None
+    player["score"] = 0
     player["cards"] = []
 
 
@@ -247,18 +253,29 @@ def player_lose(player, debug=DEBUG):
     player["stand"] = False
     player["money"] -= player["bet"]
     player["bet"] = None
-    player["score"] = None
+    player["score"] = 0
     player["cards"] = []
 
 
 def player_reset(player, debug=DEBUG):
-    """boilerplate reset code"""
+    """boilerplate player reset code"""
     if debug:
         print(f"Player {player["name"]} reset")
     player["busted"] = False
     player["stand"] = False
     player["score"] = None
     player["cards"] = []
+
+
+def dealer_reset(dealer, debug=DEBUG):
+    """boilerplate dealer reset code"""
+    if debug:
+        print(f"Dealer {dealer["name"]} reset")
+    dealer["busted"] = False
+    dealer["stand"] = False
+    dealer["score"] = None
+    dealer["hole_card"] = None
+    dealer["cards"] = []
 
 
 def process_turn(player, debug=DEBUG):
@@ -270,7 +287,8 @@ def process_turn(player, debug=DEBUG):
     else:
         if debug:
              # TODO: change flavour text for dealer
-            print(f"Player {player["name"]} score: {player["score"]}")
+            print(f"\nPlayer {player["name"]} score: {player["score"]}")
+            print(f"{player["cards"]}")
 
 
 def run_blackjack_console(players: list, dealer: dict, deck: list):
@@ -283,7 +301,7 @@ def run_blackjack_console(players: list, dealer: dict, deck: list):
                                      condition=lambda t: float(t) <= player['money']).casefold().strip()
         bet_amount = float(bet_amount)
         player["bet"] = bet_amount if bet_amount > 0 and bet_amount <= player["money"] else 0
-        print(f"Player {player["name"]} bet {player["bet"]}")
+        print(f"Player {player["name"]} bet {player["bet"]}\n")
 
     # initial deal logic
     initial_deal(players, dealer, deck)
@@ -295,16 +313,17 @@ def run_blackjack_console(players: list, dealer: dict, deck: list):
     remaining_players = [player for player in players if not player["busted"]]
 
     # reveal house's face-up card prior to player turn
-    print(f"Dealer has {dealer["cards"][0]} as well as one hidden card")
-    process_turn(dealer)
+    print(f"\nDealer has {dealer["cards"][0]} as well as one hidden card")
+    process_turn(dealer, debug=False)
     print(f"Dealer's partial total: {dealer["score"]}")
 
     # game start, players turn
     for player in remaining_players:
         print(f"\nPlayer {player["name"]} you have:"
-              f"\nCash: {player["money"]}"
+              f"\nCash left: {player["money"] - player["bet"]}$"
+              f"\nBet: {player["bet"]}$"
               f"\nScore: {player["score"]}"
-              f"\n    {player["cards"]}\n"
+              f"\n  {player["cards"]}\n"
               )
         print("Available Actions:\n",
               "1.Hit\n2.Stand\n3.Double Down\n4.Split\n", sep='')
@@ -325,10 +344,9 @@ def run_blackjack_console(players: list, dealer: dict, deck: list):
 
     if not dealer["busted"]:
         print(f"Dealer's total: {dealer["score"]}")
-
-    while (dealer["score"] < 17 and not dealer["busted"]):
-        hit(dealer, deck, 1)
-        process_turn(dealer)
+        while (dealer["score"] < 17 and not dealer["busted"]):
+            hit(dealer, deck, 1)
+            process_turn(dealer)
 
     # resolution
     if not dealer["busted"]:
@@ -349,6 +367,8 @@ def run_blackjack_console(players: list, dealer: dict, deck: list):
 
     for player in players:
         player_reset(player)
+
+    dealer_reset(dealer)
 
     return
 
