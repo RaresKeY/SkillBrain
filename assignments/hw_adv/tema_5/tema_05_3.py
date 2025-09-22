@@ -387,6 +387,7 @@ if __name__ == "__main__":
     seat_player("Rares", float(sys_rand.randint(2000, 8000)), players)
     seat_player("Raul", float(sys_rand.randint(2000, 8000)), players)
     seat_player("Cosmin", float(sys_rand.randint(2000, 8000)), players)
+    seat_player("Dani", float(sys_rand.randint(2000, 8000)), players)
 
     # seat dealer
     new_dealer = seat_dealer("Dealer1")
