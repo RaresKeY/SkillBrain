@@ -1,6 +1,6 @@
 # 📈 Tema
 
-## [ ] I. Adapteaza-ti un exercitiu la alegere din temele trecute, implementand functii.
+## [x] I. Adapteaza-ti un exercitiu la alegere din temele trecute, implementand functii.
 
 Foloseste-ti imaginatia, am putea pune fiecare linie intr-o functie separata, dar Arta este sa distingem acele parti cheie compuse din secvente de actiuni care compun o Actiune mai mare - Re-utilizabila, Organizata, Modulara
 
