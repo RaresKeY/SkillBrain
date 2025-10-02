@@ -22,10 +22,13 @@ env/
 /course
 
 # Specific ignores
-/hw_templates
-/assignments/hw_adv/tema_3/tema_3.ipynb
-/assignments/hw_adv/tema_4/_data_extra
-/assignments/hw_adv/**/requirements.txt
+hw_templates
+assignments/hw_adv/tema_3/tema_3.ipynb
+assignments/hw_adv/tema_4/_data_extra
+assignments/hw_adv/**/requirements.txt
+assignments/hw_adv/tema_6/Perception.txt
+assignments/hw_adv/tema_6/data/Perception.txt
+assignments/hw_adv/tema_6/data/ref_img.jpg
 
 # Python cache / build files
 __pycache__/
