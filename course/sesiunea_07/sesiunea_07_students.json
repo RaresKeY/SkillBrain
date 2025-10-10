@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Maya",
+        "email": "nova23@mail.net",
+        "grades": [
+            5,
+            10,
+            7
+        ]
+    },
+    {
+        "name": "Rylan",
+        "email": "rjones@outlook.org",
+        "grades": [
+            9,
+            6,
+            10,
+            7,
+            8
+        ]
+    },
+    {
+        "name": "Tessa",
+        "email": "tessa_04@gmail.com",
+        "grades": [
+            8,
+            8
+        ]
+    },
+    {
+        "name": "Kai",
+        "email": "k.mura@domain.com",
+        "grades": [
+            7,
+            9,
+            5,
+            10,
+            6,
+            9
+        ]
+    },
+    {
+        "name": "Leo",
+        "email": "leosmith@proton.me",
+        "grades": [
+            10,
+            7,
+            6,
+            9,
+            8
+        ]
+    },
+    {
+        "name": "Leo",
+        "email": "leoduck@duck.email",
+        "grades": [
+            6,
+            5,
+            7,
+            8
+        ]
+    }
+]

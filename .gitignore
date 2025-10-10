@@ -19,7 +19,6 @@ env/
 
 # Session exercises
 /sessions
-/course
 
 # Specific ignores
 hw_templates
