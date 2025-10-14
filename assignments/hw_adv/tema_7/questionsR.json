@@ -1,0 +1,58 @@
+{
+  "quiz_personal_questions": [
+    {
+      "quiz_id": "PythonRQuestions",
+      "question_type": "code_snippet", 
+      "question_text": "Cum instantiem o clasa?",
+      "code_snippet": "class Car:\n    def __init__(self):\n        print('Car created!')\n\nmy_car = Car()",
+      "options": [
+        {"id": "a", "text": "Car.create()"},
+        {"id": "b", "text": "my_car = Car()"},
+        {"id": "c", "text": "Car = my_car()"},
+        {"id": "d", "text": "create Car()"}
+      ],
+      "correct_answer": "b",
+      "explanation": "O clasa este instantiata apeland-o ca pe o functie. 'masina_mea = Car()' creeaza un nou obiect (instanta) al clasei Car.",
+      "points": 1,
+      "difficulty": "easy",
+      "chapter": "Instances/Objects",
+      "order_index": 1
+    },
+    {
+      "quiz_id": "PythonRQuestions",
+      "question_type": "theoretical",
+      "question_text": "Care este principalul avantaj al folosirii claselor in locul dictionarelor?",
+      "code_snippet": null,
+      "options": [
+        {"id": "a", "text": "Clasele folosesc mai putina memorie decat dictionarele"},
+        {"id": "b", "text": "Clasele permit asocierea comportamentului (metodelor) cu datele"},
+        {"id": "c", "text": "Dictionarele nu pot stoca date imbricate"},
+        {"id": "d", "text": "Clasele sunt mai rapide la initializare"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Clasele permit combinarea datelor cu comportamentul asociat, in timp ce dictionarele stocheaza doar date. Astfel, codul devine mai modular si mai usor de intretinut.",
+      "points": 1,
+      "difficulty": "medium",
+      "chapter": "Concepte OOP",
+      "order_index": 2
+    },
+    {
+      "quiz_id": "PythonRQuestions",
+      "question_type": "code_snippet",
+      "question_text": "Ce se va afiseaza dupa executia urmatorului cod?",
+      "code_snippet": "class Dog:\n    species = 'Canis'\n\ndefault_dog = Dog()\nprint(default_dog.species)",
+      "options": [
+        {"id": "a", "text": "Canis"},
+        {"id": "b", "text": "Dog"},
+        {"id": "c", "text": "Error"},
+        {"id": "d", "text": "None"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Atributul 'species' este un atribut de clasa, comun tuturor instantelor. Se poate accesa direct prin obiect, afisand 'Canis'.",
+      "points": 1,
+      "difficulty": "easy",
+      "chapter": "Atribute de Clasa",
+      "order_index": 3
+    }
+  ]
+}
