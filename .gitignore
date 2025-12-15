@@ -28,6 +28,7 @@ assignments/hw_adv/**/requirements.txt
 assignments/hw_adv/tema_6/Perception.txt
 assignments/hw_adv/tema_6/data/Perception.txt
 assignments/hw_adv/tema_6/data/ref_img.jpg
+assignments/hw_adv/a_4_collections/_data_extra
 
 # Python cache / build files
 __pycache__/
