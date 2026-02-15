@@ -1,0 +1,501 @@
+zona,suprafata,numar_camere,etaj,an_constructie,balcon,parcare,pret,mobilat,tip_incalzire
+Berceni,97.0,1,,2013,,nu,105000.0,mobilat,centrala_proprie
+Drumul Taberei,,3,3.0,1989,nu,da,143000.0,mobilat,centrala_proprie
+Titan,66.0,2,3.0,2005,nu,da,97000.0,nemobilat,centrala_proprie
+Berceni,67.0,2,4.0,1978,da,da,108000.0,nemobilat,centrala_bloc
+Militari,101.0,2,5.0,2007,nu,da,123000.0,mobilat,centrala_proprie
+Pantelimon,52.0,4,4.0,2017,da,da,101000.0,mobilat,centrala_proprie
+Titan,59.0,1,6.0,1991,nu,da,75000.0,mobilat,termoficare
+Titan,88.0,1,1.0,2023,nu,nu,119000.0,nemobilat,centrala_proprie
+Berceni,92.0,1,6.0,2022,da,da,118000.0,mobilat,centrala_proprie
+Pipera,101.0,4,,2022,nu,nu,198000.0,nemobilat,centrala_proprie
+Militari,80.0,1,6.0,1971,da,da,112000.0,mobilat,centrala_proprie
+Berceni,58.0,4,,1993,da,da,89000.0,mobilat,termoficare
+Militari,66.0,2,6.0,1977,da,nu,88000.0,mobilat,centrala_bloc
+Militari,,3,4.0,1980,da,da,145000.0,mobilat,centrala_proprie
+Pantelimon,57.0,1,2.0,1982,nu,nu,38000.0,nemobilat,termoficare
+Titan,100.0,1,2.0,1986,nu,nu,122000.0,mobilat,centrala_bloc
+Drumul Taberei,61.0,2,3.0,1977,da,da,100000.0,mobilat,termoficare
+Pantelimon,36.0,3,1.0,1990,nu,nu,46000.0,mobilat,termoficare
+Pantelimon,51.0,4,1.0,1987,nu,nu,62000.0,mobilat,termoficare
+Militari,,3,0.0,1999,da,da,115000.0,mobilat,centrala_proprie
+Vitan,43.0,2,4.0,1987,nu,nu,52000.0,mobilat,centrala_proprie
+Titan,77.0,2,3.0,2015,da,da,140000.0,mobilat,centrala_proprie
+Pipera,82.0,3,10.0,2016,da,da,207000.0,nemobilat,incalzire_pardoseala
+Pantelimon,73.0,4,,2000,,da,94000.0,mobilat,centrala_proprie
+Drumul Taberei,76.0,4,1.0,2007,nu,da,154000.0,nemobilat,centrala_proprie
+Vitan,60.0,1,2.0,2001,nu,nu,74000.0,mobilat,centrala_proprie
+Vitan,84.0,4,,1980,da,da,138000.0,mobilat,centrala_proprie
+Pipera,59.0,3,6.0,2014,da,da,138000.0,nemobilat,termoficare
+Pantelimon,58.0,2,3.0,1994,nu,nu,52000.0,nemobilat,centrala_proprie
+Drumul Taberei,47.0,1,4.0,2002,nu,da,66000.0,mobilat,termoficare
+Titan,94.0,1,4.0,2007,nu,da,121000.0,nemobilat,centrala_proprie
+Floreasca,41.0,2,5.0,2010,nu,nu,99000.0,nemobilat,centrala_proprie
+Drumul Taberei,91.0,4,8.0,1977,,nu,144000.0,mobilat,termoficare
+,70.0,2,,1980,nu,nu,158000.0,mobilat,centrala_proprie
+Vitan,,4,4.0,1991,da,nu,101000.0,mobilat,incalzire_pardoseala
+Titan,54.0,2,2.0,2020,da,nu,80000.0,mobilat,centrala_proprie
+Drumul Taberei,,3,3.0,1993,nu,nu,118000.0,mobilat,termoficare
+Floreasca,42.0,4,9.0,2010,nu,nu,87000.0,nemobilat,centrala_proprie
+Floreasca,50.0,3,5.0,1986,,da,141000.0,mobilat,termoficare
+Militari,48.0,1,7.0,1981,da,nu,57000.0,mobilat,centrala_proprie
+Militari,110.0,2,0.0,2015,nu,nu,128000.0,mobilat,termoficare
+Berceni,,1,,2001,nu,nu,13000.0,nemobilat,termoficare
+Pipera,100.0,1,7.0,1984,da,da,200000.0,mobilat,centrala_proprie
+Pantelimon,66.0,1,,1985,nu,da,72000.0,mobilat,centrala_proprie
+Drumul Taberei,97.0,1,6.0,2023,da,nu,121000.0,mobilat,centrala_proprie
+Drumul Taberei,85.0,2,0.0,1991,nu,nu,110000.0,mobilat,centrala_proprie
+,59.0,1,1.0,1997,da,nu,85000.0,nemobilat,centrala_proprie
+Berceni,92.0,2,2.0,1989,nu,da,90000.0,mobilat,centrala_proprie
+Vitan,97.0,2,0.0,2002,,da,118000.0,mobilat,centrala_proprie
+Vitan,96.0,3,8.0,1979,da,nu,110000.0,mobilat,incalzire_pardoseala
+Berceni,56.0,4,7.0,2009,,da,75000.0,nemobilat,centrala_proprie
+Vitan,92.0,4,1.0,2001,nu,nu,129000.0,nemobilat,centrala_proprie
+Militari,92.0,2,8.0,2019,,da,145000.0,mobilat,centrala_bloc
+Drumul Taberei,83.0,3,6.0,2002,da,da,158000.0,mobilat,termoficare
+Berceni,86.0,2,8.0,1971,da,nu,117000.0,mobilat,centrala_proprie
+Drumul Taberei,76.0,2,5.0,2002,da,nu,87000.0,mobilat,centrala_proprie
+Pantelimon,104.0,2,5.0,2002,nu,nu,110000.0,mobilat,incalzire_pardoseala
+Floreasca,49.0,3,10.0,2010,nu,nu,93000.0,mobilat,centrala_proprie
+Militari,88.0,4,3.0,1982,da,da,154000.0,mobilat,centrala_bloc
+Titan,,3,9.0,1999,da,da,134000.0,mobilat,termoficare
+Militari,42.0,1,9.0,2002,da,da,76000.0,mobilat,centrala_proprie
+Berceni,87.0,3,1.0,1982,da,nu,76000.0,mobilat,centrala_proprie
+Titan,94.0,3,6.0,2021,nu,da,126000.0,mobilat,centrala_proprie
+Floreasca,39.0,3,4.0,1995,nu,nu,89000.0,nemobilat,centrala_proprie
+Berceni,102.0,3,10.0,1991,da,da,146000.0,nemobilat,termoficare
+,40.0,4,5.0,2008,da,nu,91000.0,mobilat,centrala_proprie
+,81.0,1,1.0,1971,da,nu,101000.0,nemobilat,centrala_bloc
+Floreasca,89.0,4,4.0,2007,,da,224000.0,nemobilat,centrala_proprie
+Drumul Taberei,74.0,4,9.0,2008,da,nu,110000.0,mobilat,centrala_proprie
+Vitan,86.0,3,,1995,nu,nu,125000.0,mobilat,termoficare
+Pipera,50.0,2,8.0,2015,da,da,128000.0,mobilat,centrala_proprie
+Pipera,,2,5.0,2019,nu,nu,103000.0,mobilat,centrala_proprie
+Floreasca,64.0,4,1.0,1984,da,nu,156000.0,nemobilat,centrala_proprie
+Pipera,53.0,4,0.0,2003,nu,nu,107000.0,nemobilat,centrala_proprie
+Titan,,3,4.0,2011,da,da,99000.0,mobilat,centrala_proprie
+Pipera,97.0,4,8.0,2013,da,da,216000.0,nemobilat,centrala_proprie
+Drumul Taberei,,3,5.0,2018,da,nu,85000.0,mobilat,centrala_proprie
+,92.0,2,9.0,2009,nu,da,150000.0,mobilat,centrala_proprie
+Berceni,89.0,2,6.0,1980,da,nu,96000.0,mobilat,centrala_bloc
+Drumul Taberei,,1,4.0,1972,,nu,118000.0,mobilat,termoficare
+Berceni,57.0,2,,1975,nu,nu,33000.0,mobilat,centrala_proprie
+Drumul Taberei,43.0,4,5.0,1978,,nu,62000.0,nemobilat,centrala_proprie
+Titan,,2,4.0,1975,da,nu,65000.0,mobilat,centrala_proprie
+Pantelimon,35.0,3,10.0,1978,,da,75000.0,mobilat,centrala_proprie
+Berceni,92.0,2,8.0,2008,nu,nu,73000.0,mobilat,centrala_bloc
+Militari,35.0,1,5.0,2000,da,da,55000.0,mobilat,centrala_proprie
+Vitan,68.0,2,10.0,2001,nu,da,101000.0,nemobilat,incalzire_pardoseala
+Floreasca,82.0,3,7.0,2010,,nu,178000.0,nemobilat,centrala_proprie
+Drumul Taberei,35.0,3,,2019,da,nu,45000.0,mobilat,centrala_proprie
+Pipera,50.0,4,,1981,da,da,134000.0,mobilat,centrala_proprie
+Pantelimon,95.0,2,4.0,1977,da,da,107000.0,mobilat,centrala_proprie
+Drumul Taberei,98.0,3,6.0,1977,da,da,183000.0,mobilat,centrala_proprie
+Pipera,97.0,1,9.0,2019,da,nu,202000.0,nemobilat,centrala_proprie
+Vitan,103.0,4,0.0,1997,da,da,164000.0,mobilat,termoficare
+Vitan,56.0,1,9.0,1989,,nu,69000.0,nemobilat,centrala_bloc
+Vitan,101.0,2,4.0,2016,nu,nu,106000.0,nemobilat,centrala_bloc
+Pipera,,2,9.0,1976,,nu,239000.0,nemobilat,centrala_proprie
+Drumul Taberei,60.0,2,1.0,1980,da,da,80000.0,nemobilat,termoficare
+Vitan,50.0,4,,1989,nu,nu,82000.0,mobilat,termoficare
+Titan,85.0,3,10.0,1985,nu,nu,110000.0,nemobilat,centrala_proprie
+Berceni,91.0,4,0.0,1973,nu,nu,85000.0,mobilat,termoficare
+,63.0,1,2.0,1975,,nu,125000.0,mobilat,centrala_proprie
+Pipera,112.0,4,4.0,1991,nu,nu,221000.0,mobilat,termoficare
+Drumul Taberei,103.0,1,3.0,1995,,da,148000.0,mobilat,termoficare
+,81.0,4,2.0,1972,da,nu,181000.0,nemobilat,centrala_proprie
+Pipera,96.0,3,9.0,2010,nu,nu,180000.0,mobilat,centrala_proprie
+Vitan,103.0,1,4.0,2011,nu,da,132000.0,mobilat,centrala_proprie
+Drumul Taberei,110.0,2,10.0,1983,nu,nu,136000.0,mobilat,termoficare
+Vitan,50.0,2,7.0,1980,da,da,79000.0,mobilat,incalzire_pardoseala
+Berceni,82.0,4,10.0,1987,,nu,103000.0,nemobilat,centrala_proprie
+Pantelimon,119.0,2,3.0,2023,nu,da,129000.0,mobilat,centrala_proprie
+Berceni,73.0,1,0.0,1981,da,da,84000.0,mobilat,centrala_proprie
+Pantelimon,67.0,2,10.0,1992,da,nu,70000.0,nemobilat,centrala_bloc
+Vitan,57.0,3,6.0,1981,,nu,94000.0,mobilat,centrala_proprie
+Berceni,44.0,3,7.0,1982,da,nu,61000.0,mobilat,centrala_bloc
+Drumul Taberei,103.0,4,2.0,1994,da,da,176000.0,mobilat,termoficare
+Floreasca,68.0,1,5.0,2014,nu,da,164000.0,mobilat,termoficare
+Vitan,86.0,3,1.0,2020,da,da,129000.0,nemobilat,incalzire_pardoseala
+Pantelimon,44.0,3,,1988,da,nu,72000.0,nemobilat,centrala_proprie
+Titan,,1,7.0,2015,nu,da,82000.0,nemobilat,centrala_proprie
+Pantelimon,,2,5.0,2005,da,da,95000.0,mobilat,centrala_bloc
+Titan,35.0,2,5.0,2014,da,nu,35000.0,nemobilat,centrala_proprie
+Pipera,103.0,4,4.0,1977,nu,da,213000.0,mobilat,centrala_proprie
+,38.0,2,7.0,1998,nu,da,34000.0,mobilat,centrala_proprie
+Titan,50.0,1,0.0,2022,nu,nu,56000.0,mobilat,termoficare
+Pantelimon,58.0,3,9.0,2001,da,da,75000.0,mobilat,termoficare
+Pipera,114.0,2,3.0,2020,nu,nu,224000.0,mobilat,centrala_proprie
+Floreasca,36.0,4,3.0,2013,da,nu,121000.0,mobilat,termoficare
+Drumul Taberei,66.0,2,2.0,1987,nu,nu,88000.0,mobilat,centrala_proprie
+Drumul Taberei,,1,,1975,da,nu,154000.0,mobilat,centrala_proprie
+Drumul Taberei,58.0,4,3.0,1987,nu,nu,94000.0,nemobilat,centrala_proprie
+Titan,46.0,2,10.0,1988,nu,da,58000.0,mobilat,centrala_proprie
+Floreasca,84.0,4,0.0,1991,nu,da,209000.0,mobilat,centrala_proprie
+Titan,69.0,1,10.0,2006,,nu,85000.0,nemobilat,centrala_bloc
+Berceni,67.0,3,10.0,2001,da,nu,81000.0,mobilat,centrala_bloc
+Titan,67.0,1,1.0,2010,nu,da,93000.0,nemobilat,termoficare
+Floreasca,95.0,1,8.0,1972,nu,nu,215000.0,mobilat,termoficare
+Floreasca,85.0,1,9.0,1997,da,nu,194000.0,nemobilat,centrala_bloc
+Berceni,77.0,1,1.0,1979,nu,nu,98000.0,mobilat,incalzire_pardoseala
+Floreasca,46.0,3,4.0,2020,da,da,139000.0,mobilat,termoficare
+Pantelimon,101.0,3,8.0,2004,nu,da,100000.0,mobilat,centrala_bloc
+Floreasca,99.0,4,,1998,nu,nu,209000.0,mobilat,centrala_proprie
+Drumul Taberei,67.0,2,7.0,2023,nu,nu,71000.0,mobilat,centrala_proprie
+Pantelimon,,3,0.0,1984,da,da,110000.0,mobilat,termoficare
+Pantelimon,108.0,3,0.0,2002,nu,da,139000.0,mobilat,centrala_proprie
+,,2,8.0,1976,nu,nu,56000.0,mobilat,centrala_proprie
+Militari,78.0,3,10.0,1981,nu,nu,90000.0,nemobilat,centrala_proprie
+Militari,63.0,1,7.0,2018,da,da,107000.0,mobilat,centrala_proprie
+Floreasca,47.0,1,9.0,1999,da,da,101000.0,nemobilat,centrala_proprie
+Pantelimon,46.0,2,8.0,1990,nu,da,43000.0,mobilat,centrala_proprie
+Militari,80.0,4,6.0,2000,da,nu,140000.0,mobilat,centrala_proprie
+Militari,36.0,4,2.0,1993,nu,da,74000.0,nemobilat,incalzire_pardoseala
+Floreasca,69.0,2,2.0,1989,nu,nu,133000.0,nemobilat,centrala_proprie
+Militari,115.0,2,1.0,2006,nu,da,134000.0,nemobilat,centrala_proprie
+Titan,42.0,1,4.0,1973,nu,da,69000.0,nemobilat,termoficare
+Pipera,60.0,4,2.0,1997,nu,da,133000.0,mobilat,termoficare
+Berceni,108.0,3,5.0,2013,,da,153000.0,mobilat,centrala_proprie
+Pipera,68.0,1,1.0,1989,nu,nu,140000.0,mobilat,centrala_proprie
+,41.0,2,2.0,1993,da,nu,84000.0,mobilat,centrala_proprie
+Drumul Taberei,102.0,4,4.0,2019,da,da,166000.0,nemobilat,termoficare
+Berceni,92.0,3,10.0,2018,da,nu,132000.0,mobilat,centrala_proprie
+Floreasca,109.0,3,10.0,2020,da,da,256000.0,mobilat,termoficare
+Pantelimon,63.0,1,0.0,2001,da,da,78000.0,mobilat,centrala_proprie
+Drumul Taberei,70.0,4,0.0,2010,da,da,134000.0,mobilat,centrala_proprie
+Pipera,55.0,4,9.0,2005,da,da,138000.0,nemobilat,centrala_proprie
+Floreasca,,2,8.0,2022,nu,nu,153000.0,mobilat,centrala_proprie
+Pantelimon,,4,6.0,2003,nu,da,71000.0,nemobilat,centrala_proprie
+Berceni,107.0,4,0.0,2005,nu,da,141000.0,mobilat,centrala_proprie
+Berceni,58.0,1,7.0,1971,nu,nu,41000.0,mobilat,centrala_proprie
+Vitan,98.0,4,2.0,1984,da,da,136000.0,mobilat,incalzire_pardoseala
+Pantelimon,83.0,3,7.0,2003,da,da,109000.0,nemobilat,centrala_proprie
+Titan,70.0,1,,2005,,da,88000.0,nemobilat,centrala_proprie
+Militari,116.0,1,0.0,1975,nu,nu,133000.0,mobilat,centrala_bloc
+Drumul Taberei,58.0,2,6.0,2008,da,da,117000.0,nemobilat,centrala_proprie
+,57.0,4,4.0,2011,nu,nu,80000.0,nemobilat,centrala_proprie
+Vitan,96.0,2,5.0,2020,nu,da,153000.0,mobilat,centrala_proprie
+Militari,,3,5.0,2020,,da,102000.0,mobilat,centrala_proprie
+Militari,,1,7.0,2023,nu,nu,66000.0,nemobilat,termoficare
+Floreasca,89.0,1,8.0,1981,,da,210000.0,mobilat,incalzire_pardoseala
+Militari,47.0,1,1.0,1972,nu,da,56000.0,nemobilat,centrala_proprie
+Titan,57.0,3,8.0,2014,nu,nu,73000.0,mobilat,termoficare
+Berceni,64.0,3,10.0,1987,da,nu,49000.0,mobilat,termoficare
+Vitan,51.0,2,9.0,2009,da,nu,89000.0,mobilat,centrala_proprie
+Militari,96.0,2,8.0,1990,nu,nu,115000.0,mobilat,centrala_proprie
+,118.0,2,9.0,1984,da,nu,260000.0,mobilat,centrala_proprie
+Titan,47.0,4,9.0,2002,nu,da,85000.0,mobilat,termoficare
+Pipera,93.0,1,6.0,2004,nu,nu,175000.0,mobilat,centrala_proprie
+Berceni,53.0,1,0.0,1995,da,da,48000.0,mobilat,centrala_proprie
+Berceni,83.0,2,6.0,1977,,da,69000.0,mobilat,centrala_proprie
+Vitan,,1,9.0,2005,nu,da,30000.0,nemobilat,centrala_proprie
+Berceni,95.0,2,4.0,2017,nu,nu,86000.0,mobilat,termoficare
+Militari,53.0,4,,1999,nu,nu,113000.0,mobilat,centrala_proprie
+Floreasca,110.0,4,,1992,da,da,239000.0,mobilat,termoficare
+Berceni,43.0,3,6.0,2011,da,nu,22000.0,mobilat,centrala_proprie
+Berceni,105.0,4,4.0,2013,nu,nu,127000.0,mobilat,termoficare
+Pipera,62.0,2,6.0,1983,da,nu,165000.0,mobilat,centrala_proprie
+Pipera,112.0,4,8.0,1983,nu,nu,229000.0,nemobilat,incalzire_pardoseala
+,,3,2.0,1971,nu,da,136000.0,mobilat,centrala_bloc
+Titan,117.0,1,,2006,nu,da,140000.0,mobilat,termoficare
+Militari,,2,1.0,1974,nu,nu,33000.0,nemobilat,centrala_proprie
+Berceni,,1,10.0,2007,nu,da,88000.0,mobilat,centrala_proprie
+Pantelimon,46.0,3,6.0,2014,da,nu,62000.0,mobilat,centrala_bloc
+Berceni,59.0,3,1.0,2010,nu,nu,58000.0,mobilat,centrala_proprie
+Floreasca,86.0,3,3.0,2023,da,da,210000.0,mobilat,centrala_proprie
+Drumul Taberei,119.0,1,6.0,2016,da,da,196000.0,nemobilat,centrala_proprie
+Titan,87.0,1,2.0,1983,nu,da,99000.0,mobilat,centrala_proprie
+Pantelimon,57.0,1,1.0,2008,,nu,69000.0,nemobilat,centrala_bloc
+Drumul Taberei,50.0,1,10.0,1994,nu,da,70000.0,mobilat,centrala_proprie
+Vitan,91.0,3,9.0,1989,nu,nu,128000.0,mobilat,centrala_bloc
+Titan,73.0,3,,1971,nu,da,101000.0,nemobilat,termoficare
+Berceni,,2,,2008,da,da,104000.0,nemobilat,centrala_proprie
+Berceni,76.0,2,7.0,1975,nu,nu,70000.0,nemobilat,centrala_proprie
+Titan,92.0,1,2.0,1986,nu,nu,94000.0,nemobilat,centrala_proprie
+Berceni,73.0,4,1.0,1994,da,nu,91000.0,mobilat,centrala_proprie
+Militari,48.0,4,2.0,1997,,nu,94000.0,nemobilat,centrala_proprie
+Titan,39.0,3,4.0,1971,,nu,46000.0,mobilat,centrala_proprie
+Drumul Taberei,69.0,3,10.0,2004,da,nu,105000.0,mobilat,centrala_proprie
+Titan,109.0,3,7.0,2006,nu,nu,114000.0,nemobilat,centrala_bloc
+Pantelimon,52.0,2,9.0,1974,da,nu,68000.0,mobilat,centrala_proprie
+Berceni,110.0,2,6.0,1970,da,da,128000.0,mobilat,termoficare
+,43.0,3,6.0,2009,nu,nu,46000.0,mobilat,centrala_proprie
+Militari,108.0,3,6.0,1981,da,nu,159000.0,nemobilat,centrala_proprie
+Vitan,92.0,3,7.0,2005,da,da,124000.0,mobilat,centrala_proprie
+Drumul Taberei,51.0,4,0.0,2014,,nu,110000.0,nemobilat,centrala_proprie
+,41.0,2,3.0,1992,da,da,117000.0,mobilat,centrala_proprie
+Pipera,80.0,4,5.0,2016,,da,202000.0,mobilat,centrala_proprie
+,47.0,4,8.0,2000,da,nu,71000.0,mobilat,centrala_proprie
+Vitan,74.0,3,1.0,1980,nu,da,115000.0,nemobilat,incalzire_pardoseala
+Floreasca,76.0,3,0.0,1979,nu,nu,174000.0,mobilat,centrala_proprie
+Titan,43.0,1,9.0,1972,da,da,76000.0,mobilat,centrala_proprie
+Vitan,84.0,1,1.0,2023,,da,106000.0,mobilat,centrala_proprie
+Drumul Taberei,61.0,4,,1983,,da,110000.0,mobilat,centrala_proprie
+,100.0,2,2.0,1985,nu,nu,149000.0,mobilat,termoficare
+Drumul Taberei,39.0,3,9.0,1979,da,nu,100000.0,nemobilat,centrala_proprie
+Drumul Taberei,63.0,3,1.0,1998,nu,da,104000.0,nemobilat,centrala_proprie
+Drumul Taberei,,4,10.0,1979,,da,141000.0,mobilat,centrala_proprie
+,72.0,1,6.0,1981,nu,nu,96000.0,nemobilat,incalzire_pardoseala
+Vitan,117.0,2,1.0,1999,,nu,137000.0,nemobilat,centrala_bloc
+Militari,42.0,1,2.0,2010,da,da,104000.0,mobilat,termoficare
+Pantelimon,99.0,1,10.0,1970,nu,da,87000.0,mobilat,centrala_proprie
+Pipera,51.0,1,6.0,1974,nu,nu,104000.0,mobilat,termoficare
+Berceni,105.0,1,3.0,1989,da,nu,107000.0,nemobilat,centrala_bloc
+Drumul Taberei,79.0,3,0.0,1977,nu,nu,109000.0,mobilat,centrala_proprie
+,38.0,3,4.0,2012,nu,nu,127000.0,nemobilat,centrala_proprie
+Berceni,70.0,1,8.0,1981,nu,nu,55000.0,mobilat,centrala_proprie
+Vitan,,2,,1970,da,da,139000.0,mobilat,centrala_proprie
+Floreasca,65.0,4,,2023,da,nu,180000.0,mobilat,centrala_bloc
+,53.0,2,9.0,1989,nu,da,135000.0,nemobilat,centrala_proprie
+,95.0,2,,1997,nu,nu,214000.0,mobilat,centrala_proprie
+,,2,6.0,2012,nu,da,130000.0,mobilat,centrala_proprie
+Vitan,,1,,2006,,nu,100000.0,nemobilat,centrala_proprie
+,108.0,3,4.0,2016,da,nu,268000.0,mobilat,centrala_proprie
+Drumul Taberei,53.0,2,0.0,2006,nu,da,78000.0,mobilat,centrala_proprie
+Titan,,1,0.0,1981,,da,90000.0,nemobilat,termoficare
+Floreasca,101.0,2,2.0,2006,nu,nu,220000.0,mobilat,centrala_proprie
+Militari,79.0,2,7.0,2018,nu,nu,101000.0,nemobilat,centrala_proprie
+Berceni,,1,1.0,2018,nu,nu,38000.0,mobilat,centrala_bloc
+Vitan,92.0,3,3.0,2013,nu,nu,128000.0,nemobilat,centrala_proprie
+Pantelimon,54.0,3,1.0,1997,da,nu,91000.0,mobilat,centrala_proprie
+Militari,106.0,4,4.0,2016,nu,da,158000.0,mobilat,centrala_proprie
+Floreasca,,1,8.0,1984,da,da,209000.0,nemobilat,centrala_proprie
+,,4,0.0,1975,nu,nu,84000.0,mobilat,centrala_proprie
+Titan,35.0,4,4.0,2013,nu,da,67000.0,nemobilat,centrala_proprie
+Floreasca,37.0,4,8.0,1989,da,da,128000.0,mobilat,centrala_proprie
+,111.0,3,0.0,2019,,da,173000.0,nemobilat,centrala_bloc
+Pipera,96.0,1,8.0,1983,da,nu,177000.0,nemobilat,termoficare
+Drumul Taberei,97.0,4,7.0,1971,da,da,164000.0,mobilat,incalzire_pardoseala
+Pantelimon,59.0,1,3.0,1978,,nu,68000.0,nemobilat,centrala_proprie
+Berceni,,1,10.0,2006,da,da,99000.0,mobilat,termoficare
+Militari,,3,9.0,1989,,nu,68000.0,mobilat,centrala_proprie
+Vitan,72.0,4,4.0,1995,da,da,155000.0,mobilat,centrala_bloc
+Pantelimon,40.0,4,,1998,nu,nu,32000.0,mobilat,centrala_proprie
+Pantelimon,92.0,1,10.0,1970,nu,nu,76000.0,mobilat,centrala_proprie
+,78.0,2,5.0,2004,nu,da,99000.0,mobilat,centrala_proprie
+Floreasca,79.0,3,6.0,1975,nu,nu,159000.0,mobilat,termoficare
+Drumul Taberei,66.0,3,7.0,2006,nu,nu,96000.0,mobilat,centrala_proprie
+Floreasca,79.0,3,7.0,2022,nu,nu,181000.0,mobilat,centrala_proprie
+Vitan,95.0,3,10.0,1974,da,nu,88000.0,nemobilat,termoficare
+Floreasca,81.0,4,1.0,2002,nu,nu,159000.0,nemobilat,centrala_proprie
+Pipera,55.0,4,8.0,2018,da,nu,134000.0,mobilat,centrala_proprie
+Drumul Taberei,114.0,2,6.0,2020,da,nu,161000.0,nemobilat,centrala_bloc
+Drumul Taberei,119.0,3,3.0,1983,nu,nu,163000.0,mobilat,termoficare
+Vitan,109.0,3,3.0,1981,da,da,160000.0,mobilat,centrala_proprie
+Berceni,70.0,1,10.0,2011,nu,da,49000.0,mobilat,termoficare
+Pipera,53.0,4,7.0,1989,da,nu,143000.0,mobilat,centrala_proprie
+Militari,54.0,3,3.0,2022,,nu,72000.0,mobilat,termoficare
+Floreasca,91.0,2,5.0,2019,da,da,203000.0,nemobilat,termoficare
+Titan,52.0,2,4.0,1993,nu,da,79000.0,mobilat,centrala_proprie
+Floreasca,,4,2.0,2012,nu,da,196000.0,nemobilat,centrala_bloc
+Pantelimon,,2,9.0,2003,nu,nu,103000.0,mobilat,centrala_bloc
+Floreasca,,2,10.0,1994,nu,da,119000.0,nemobilat,centrala_proprie
+Militari,49.0,4,1.0,2019,,nu,105000.0,mobilat,termoficare
+Floreasca,65.0,3,,1998,nu,nu,126000.0,mobilat,centrala_proprie
+Pipera,35.0,3,9.0,2008,da,da,105000.0,mobilat,centrala_bloc
+Pipera,88.0,2,8.0,2000,da,nu,166000.0,mobilat,centrala_proprie
+Drumul Taberei,37.0,2,0.0,2016,da,nu,68000.0,mobilat,termoficare
+Vitan,,3,9.0,2012,nu,nu,68000.0,mobilat,termoficare
+Berceni,91.0,4,2.0,2019,da,nu,109000.0,mobilat,centrala_proprie
+Titan,109.0,2,7.0,1992,da,da,146000.0,nemobilat,centrala_proprie
+Pantelimon,46.0,1,5.0,2013,da,da,83000.0,mobilat,termoficare
+Floreasca,108.0,4,4.0,2007,,nu,208000.0,mobilat,centrala_proprie
+Floreasca,50.0,2,,1989,nu,nu,90000.0,mobilat,centrala_proprie
+Militari,106.0,2,,1992,da,da,155000.0,nemobilat,centrala_proprie
+Vitan,110.0,1,6.0,2014,nu,nu,112000.0,mobilat,centrala_proprie
+,,1,0.0,2021,nu,da,130000.0,nemobilat,termoficare
+,62.0,3,8.0,1985,da,nu,85000.0,mobilat,centrala_proprie
+Drumul Taberei,42.0,4,2.0,2019,da,nu,63000.0,mobilat,termoficare
+Pipera,70.0,4,3.0,2011,nu,da,144000.0,mobilat,centrala_proprie
+Pantelimon,,3,9.0,1977,da,da,31000.0,mobilat,centrala_proprie
+Vitan,92.0,4,0.0,2019,nu,da,121000.0,mobilat,centrala_bloc
+Pantelimon,94.0,4,10.0,1990,nu,da,118000.0,mobilat,centrala_proprie
+Berceni,84.0,4,9.0,1970,nu,nu,87000.0,nemobilat,termoficare
+Drumul Taberei,62.0,4,2.0,1977,nu,da,109000.0,mobilat,termoficare
+Berceni,75.0,4,1.0,1998,nu,nu,71000.0,mobilat,centrala_proprie
+Militari,98.0,1,1.0,2001,nu,da,133000.0,mobilat,centrala_proprie
+Pantelimon,,4,0.0,2007,da,da,106000.0,mobilat,centrala_proprie
+Militari,97.0,1,7.0,1974,da,nu,102000.0,nemobilat,centrala_proprie
+Floreasca,51.0,4,2.0,2016,,da,137000.0,mobilat,termoficare
+Berceni,107.0,3,2.0,1991,,da,130000.0,mobilat,centrala_bloc
+Vitan,67.0,2,,2016,nu,da,93000.0,nemobilat,centrala_proprie
+Pantelimon,118.0,1,7.0,2003,da,da,154000.0,mobilat,incalzire_pardoseala
+Titan,111.0,4,8.0,1970,nu,nu,124000.0,nemobilat,centrala_proprie
+Drumul Taberei,63.0,3,8.0,1995,da,nu,88000.0,mobilat,centrala_proprie
+Pipera,47.0,2,,2012,nu,da,120000.0,nemobilat,termoficare
+Vitan,80.0,1,4.0,1979,nu,da,133000.0,mobilat,centrala_proprie
+Vitan,69.0,2,1.0,1999,da,da,111000.0,mobilat,centrala_proprie
+Militari,40.0,3,10.0,2019,da,nu,82000.0,nemobilat,centrala_proprie
+Berceni,116.0,1,8.0,1987,nu,nu,94000.0,mobilat,termoficare
+Pantelimon,103.0,2,7.0,1986,nu,nu,82000.0,mobilat,centrala_proprie
+Pantelimon,81.0,4,2.0,1995,nu,nu,94000.0,nemobilat,termoficare
+Floreasca,59.0,1,10.0,1977,,da,143000.0,mobilat,centrala_proprie
+Floreasca,100.0,2,8.0,2016,da,da,228000.0,mobilat,termoficare
+Drumul Taberei,44.0,3,2.0,2009,da,da,104000.0,nemobilat,termoficare
+Militari,90.0,3,8.0,2018,da,nu,122000.0,mobilat,termoficare
+Vitan,64.0,1,1.0,1981,da,da,81000.0,mobilat,centrala_proprie
+Pantelimon,39.0,2,,1996,da,nu,67000.0,mobilat,centrala_proprie
+Titan,67.0,1,8.0,1977,nu,nu,85000.0,mobilat,centrala_proprie
+Militari,99.0,1,7.0,1994,nu,da,123000.0,nemobilat,centrala_proprie
+Drumul Taberei,52.0,2,,2015,da,da,127000.0,mobilat,centrala_proprie
+Drumul Taberei,83.0,2,4.0,1973,nu,da,118000.0,mobilat,termoficare
+Militari,45.0,4,10.0,2002,nu,nu,71000.0,mobilat,centrala_proprie
+,119.0,2,10.0,1970,da,nu,163000.0,mobilat,centrala_proprie
+Militari,60.0,3,1.0,1988,nu,da,103000.0,mobilat,centrala_proprie
+Pipera,,1,,2000,da,da,214000.0,nemobilat,centrala_proprie
+Militari,93.0,1,5.0,1985,da,nu,123000.0,nemobilat,termoficare
+Berceni,61.0,3,7.0,1983,nu,da,61000.0,mobilat,centrala_proprie
+Militari,,2,10.0,2022,da,nu,94000.0,mobilat,incalzire_pardoseala
+Drumul Taberei,111.0,3,4.0,2017,da,nu,185000.0,nemobilat,centrala_proprie
+Pantelimon,67.0,3,9.0,1974,da,da,85000.0,mobilat,centrala_proprie
+Berceni,35.0,4,1.0,2010,da,da,73000.0,nemobilat,centrala_proprie
+Drumul Taberei,55.0,3,5.0,1995,da,da,111000.0,mobilat,centrala_bloc
+Floreasca,89.0,1,4.0,1997,,da,227000.0,mobilat,termoficare
+Floreasca,40.0,3,4.0,1971,da,nu,97000.0,nemobilat,centrala_proprie
+Pantelimon,115.0,1,0.0,2019,,nu,117000.0,mobilat,centrala_proprie
+Pantelimon,103.0,1,1.0,1975,nu,nu,85000.0,mobilat,termoficare
+Berceni,39.0,1,7.0,1978,nu,da,45000.0,mobilat,centrala_proprie
+Pipera,37.0,2,2.0,2002,nu,nu,62000.0,mobilat,termoficare
+Pantelimon,87.0,4,9.0,2010,da,da,125000.0,mobilat,centrala_proprie
+Floreasca,57.0,1,2.0,1994,da,da,137000.0,nemobilat,centrala_proprie
+Militari,87.0,1,7.0,2017,nu,da,148000.0,nemobilat,termoficare
+Drumul Taberei,71.0,2,7.0,1982,nu,da,108000.0,nemobilat,incalzire_pardoseala
+Floreasca,108.0,1,1.0,1978,nu,da,198000.0,mobilat,centrala_proprie
+Floreasca,108.0,3,7.0,2022,da,da,296000.0,mobilat,centrala_proprie
+Pipera,117.0,3,10.0,1982,nu,nu,243000.0,nemobilat,centrala_proprie
+Berceni,,4,0.0,2000,nu,da,107000.0,mobilat,centrala_proprie
+Berceni,119.0,1,,2010,da,nu,102000.0,mobilat,centrala_proprie
+Vitan,112.0,2,7.0,1980,nu,nu,127000.0,nemobilat,centrala_proprie
+Pipera,107.0,3,2.0,1973,da,da,243000.0,nemobilat,centrala_proprie
+Militari,,2,7.0,2003,da,da,81000.0,nemobilat,centrala_proprie
+Berceni,85.0,2,,2007,da,da,113000.0,mobilat,centrala_proprie
+Drumul Taberei,79.0,3,,2015,nu,nu,83000.0,mobilat,centrala_bloc
+Pantelimon,111.0,2,10.0,1973,nu,da,95000.0,mobilat,centrala_proprie
+Pipera,38.0,3,8.0,2007,da,nu,117000.0,nemobilat,centrala_proprie
+Pantelimon,96.0,2,10.0,1988,nu,da,134000.0,nemobilat,centrala_proprie
+Floreasca,99.0,3,8.0,1975,nu,da,217000.0,nemobilat,termoficare
+Drumul Taberei,66.0,1,4.0,2003,nu,nu,107000.0,mobilat,centrala_proprie
+Drumul Taberei,68.0,4,9.0,1987,nu,nu,86000.0,mobilat,centrala_proprie
+Floreasca,106.0,3,3.0,1982,da,da,232000.0,mobilat,centrala_proprie
+Pipera,73.0,3,10.0,2010,nu,nu,134000.0,mobilat,termoficare
+Floreasca,60.0,4,,1992,da,nu,131000.0,nemobilat,centrala_bloc
+Pantelimon,68.0,3,6.0,1988,da,nu,93000.0,mobilat,termoficare
+,88.0,3,4.0,2014,,nu,101000.0,nemobilat,centrala_proprie
+Drumul Taberei,37.0,2,,1980,da,nu,93000.0,mobilat,termoficare
+Titan,84.0,4,9.0,1970,nu,da,124000.0,mobilat,centrala_proprie
+,46.0,1,8.0,1993,nu,da,81000.0,nemobilat,termoficare
+Pantelimon,,3,2.0,2023,da,nu,126000.0,mobilat,centrala_proprie
+Militari,88.0,4,6.0,1976,da,da,159000.0,nemobilat,centrala_proprie
+Berceni,39.0,2,9.0,1994,da,da,51000.0,nemobilat,centrala_proprie
+,91.0,1,9.0,1990,da,nu,212000.0,mobilat,centrala_proprie
+Floreasca,51.0,4,10.0,1984,nu,da,131000.0,mobilat,centrala_proprie
+Militari,81.0,1,4.0,1970,,nu,110000.0,mobilat,termoficare
+Militari,57.0,1,6.0,1981,nu,nu,43000.0,mobilat,incalzire_pardoseala
+Pantelimon,113.0,1,1.0,1976,da,da,130000.0,mobilat,centrala_proprie
+Pantelimon,119.0,3,3.0,1984,,nu,132000.0,nemobilat,termoficare
+Militari,48.0,3,1.0,1990,da,nu,67000.0,mobilat,termoficare
+Drumul Taberei,,2,6.0,1988,nu,nu,137000.0,mobilat,termoficare
+Pantelimon,109.0,2,1.0,1998,da,nu,141000.0,nemobilat,centrala_proprie
+Vitan,85.0,4,,1994,,nu,101000.0,nemobilat,centrala_proprie
+Pantelimon,72.0,2,0.0,2002,,da,113000.0,mobilat,centrala_proprie
+Floreasca,98.0,1,8.0,2018,nu,da,198000.0,nemobilat,termoficare
+,,1,0.0,2001,nu,nu,100000.0,mobilat,incalzire_pardoseala
+Drumul Taberei,84.0,3,7.0,2018,,nu,145000.0,mobilat,centrala_proprie
+Militari,,1,1.0,2004,da,da,191000.0,nemobilat,centrala_proprie
+Floreasca,64.0,4,7.0,2013,nu,nu,156000.0,nemobilat,centrala_proprie
+Pantelimon,,1,2.0,2007,nu,da,130000.0,nemobilat,termoficare
+Drumul Taberei,85.0,1,5.0,1995,da,nu,132000.0,mobilat,centrala_proprie
+Vitan,97.0,4,,1980,da,nu,131000.0,mobilat,centrala_proprie
+Pantelimon,,2,6.0,2004,nu,nu,63000.0,mobilat,termoficare
+Drumul Taberei,72.0,2,9.0,1977,da,nu,111000.0,nemobilat,termoficare
+Vitan,,4,8.0,2015,nu,nu,137000.0,mobilat,centrala_proprie
+Militari,,3,1.0,1983,nu,nu,67000.0,mobilat,centrala_proprie
+Pantelimon,85.0,1,4.0,1979,da,nu,96000.0,mobilat,centrala_bloc
+Vitan,115.0,4,5.0,1971,da,da,162000.0,mobilat,centrala_proprie
+Floreasca,39.0,1,3.0,2015,da,da,122000.0,mobilat,termoficare
+,,3,3.0,1978,da,da,95000.0,nemobilat,centrala_proprie
+Floreasca,38.0,1,3.0,1972,da,nu,74000.0,nemobilat,centrala_proprie
+Titan,44.0,4,1.0,1990,nu,nu,79000.0,mobilat,termoficare
+,90.0,1,3.0,1995,nu,nu,174000.0,mobilat,centrala_proprie
+Pantelimon,51.0,2,10.0,1977,da,nu,37000.0,nemobilat,centrala_proprie
+Vitan,108.0,3,0.0,2017,da,nu,152000.0,nemobilat,termoficare
+Pipera,51.0,3,,1971,da,nu,134000.0,mobilat,centrala_proprie
+Pipera,,3,0.0,1975,nu,nu,222000.0,nemobilat,centrala_proprie
+Vitan,,4,9.0,1997,da,da,167000.0,mobilat,centrala_proprie
+Militari,,3,5.0,2022,da,nu,93000.0,mobilat,centrala_proprie
+Pantelimon,40.0,2,0.0,1998,nu,da,56000.0,mobilat,centrala_proprie
+Titan,87.0,4,5.0,1995,nu,da,141000.0,mobilat,termoficare
+Floreasca,100.0,2,9.0,1994,da,nu,217000.0,nemobilat,centrala_proprie
+Drumul Taberei,,1,7.0,1981,da,nu,170000.0,mobilat,centrala_bloc
+Floreasca,77.0,1,10.0,1974,da,da,180000.0,nemobilat,termoficare
+Drumul Taberei,109.0,1,1.0,2003,nu,da,191000.0,mobilat,centrala_proprie
+Floreasca,57.0,1,1.0,2017,,nu,104000.0,mobilat,termoficare
+Vitan,89.0,2,3.0,2006,da,nu,115000.0,nemobilat,centrala_proprie
+Titan,,4,10.0,1984,da,da,146000.0,nemobilat,incalzire_pardoseala
+Pantelimon,109.0,4,2.0,2013,nu,nu,106000.0,mobilat,termoficare
+Drumul Taberei,50.0,3,3.0,2005,nu,nu,61000.0,mobilat,centrala_bloc
+Pantelimon,,2,6.0,1984,da,nu,54000.0,mobilat,termoficare
+Pantelimon,38.0,1,10.0,2012,da,da,67000.0,mobilat,centrala_proprie
+,38.0,2,0.0,2017,nu,da,66000.0,mobilat,termoficare
+Berceni,,3,,1992,nu,da,88000.0,nemobilat,centrala_proprie
+Militari,,3,2.0,1975,nu,nu,71000.0,nemobilat,centrala_proprie
+Floreasca,101.0,2,10.0,2015,,nu,196000.0,mobilat,termoficare
+Pantelimon,,2,9.0,2019,nu,da,134000.0,mobilat,centrala_proprie
+Floreasca,,2,6.0,2013,nu,da,132000.0,mobilat,termoficare
+Pantelimon,66.0,4,9.0,2012,,da,92000.0,nemobilat,centrala_proprie
+Drumul Taberei,84.0,1,1.0,2014,nu,nu,121000.0,mobilat,centrala_bloc
+Militari,,2,1.0,1990,,da,123000.0,nemobilat,centrala_proprie
+Militari,85.0,2,3.0,1992,da,da,141000.0,nemobilat,centrala_proprie
+Vitan,53.0,2,0.0,2012,da,nu,102000.0,mobilat,termoficare
+Berceni,55.0,3,2.0,1985,da,nu,70000.0,mobilat,centrala_proprie
+Vitan,39.0,3,8.0,2016,nu,nu,72000.0,nemobilat,centrala_proprie
+Vitan,116.0,4,6.0,2022,da,da,147000.0,nemobilat,termoficare
+Vitan,76.0,1,6.0,1984,nu,nu,78000.0,mobilat,termoficare
+Vitan,95.0,4,10.0,1994,nu,nu,126000.0,mobilat,termoficare
+,56.0,1,3.0,2005,da,da,75000.0,nemobilat,incalzire_pardoseala
+Titan,55.0,3,1.0,1980,nu,nu,70000.0,mobilat,centrala_bloc
+Militari,,3,3.0,2020,da,da,180000.0,mobilat,centrala_proprie
+Vitan,,3,5.0,1984,da,da,44000.0,mobilat,centrala_proprie
+,39.0,4,10.0,1973,da,nu,39000.0,mobilat,centrala_proprie
+Militari,46.0,2,10.0,1990,nu,nu,61000.0,nemobilat,centrala_proprie
+Militari,80.0,2,2.0,1982,da,nu,115000.0,mobilat,incalzire_pardoseala
+Pipera,68.0,3,0.0,1991,nu,nu,149000.0,nemobilat,termoficare
+Titan,83.0,2,7.0,1988,da,nu,106000.0,mobilat,centrala_proprie
+Vitan,112.0,2,4.0,2003,da,nu,152000.0,nemobilat,centrala_proprie
+Floreasca,79.0,4,4.0,1983,,da,208000.0,nemobilat,centrala_proprie
+Drumul Taberei,61.0,1,10.0,1973,nu,da,83000.0,nemobilat,centrala_proprie
+Berceni,,3,3.0,2017,nu,nu,101000.0,mobilat,termoficare
+,60.0,3,5.0,2022,,da,84000.0,mobilat,centrala_proprie
+,81.0,4,,2021,da,nu,194000.0,mobilat,termoficare
+Titan,90.0,4,8.0,2015,da,da,132000.0,mobilat,centrala_proprie
+Drumul Taberei,97.0,2,4.0,1996,nu,da,140000.0,mobilat,termoficare
+Titan,82.0,3,2.0,1998,nu,da,121000.0,nemobilat,centrala_proprie
+Pantelimon,,1,10.0,2016,nu,nu,96000.0,mobilat,incalzire_pardoseala
+Militari,115.0,4,0.0,1997,nu,da,165000.0,mobilat,centrala_bloc
+Drumul Taberei,60.0,1,9.0,2004,nu,nu,53000.0,nemobilat,centrala_proprie
+Militari,,1,5.0,1977,nu,da,95000.0,mobilat,termoficare
+Pantelimon,,3,1.0,1985,da,da,51000.0,mobilat,centrala_proprie
+Floreasca,42.0,3,,2011,nu,da,126000.0,mobilat,centrala_proprie
+Pantelimon,86.0,4,0.0,2005,da,da,118000.0,mobilat,termoficare
+Floreasca,113.0,3,8.0,1999,da,da,246000.0,mobilat,centrala_proprie
+Drumul Taberei,81.0,3,7.0,1987,,nu,112000.0,mobilat,centrala_proprie
+Drumul Taberei,90.0,3,1.0,1971,nu,nu,140000.0,nemobilat,termoficare
+Vitan,48.0,1,10.0,2018,da,da,93000.0,mobilat,termoficare
+Titan,62.0,4,7.0,1982,nu,da,98000.0,mobilat,termoficare
+Vitan,112.0,2,,1973,nu,da,124000.0,nemobilat,centrala_proprie
+Titan,36.0,1,0.0,1995,da,da,88000.0,mobilat,centrala_proprie
+Vitan,60.0,3,4.0,1994,da,nu,79000.0,nemobilat,centrala_bloc
+Militari,48.0,1,7.0,1999,da,da,97000.0,mobilat,centrala_proprie
+Drumul Taberei,93.0,3,10.0,1980,nu,nu,122000.0,mobilat,termoficare
+Floreasca,90.0,3,1.0,1976,da,da,223000.0,mobilat,incalzire_pardoseala
+Titan,41.0,1,3.0,2000,,nu,65000.0,mobilat,centrala_proprie
+Pantelimon,37.0,4,,2013,da,da,88000.0,mobilat,centrala_proprie
+Titan,57.0,3,2.0,1979,da,da,105000.0,mobilat,centrala_proprie
+Floreasca,52.0,4,4.0,2008,da,nu,129000.0,mobilat,termoficare
+Vitan,72.0,2,7.0,1982,nu,da,93000.0,mobilat,centrala_proprie
+Titan,,3,9.0,2000,nu,da,81000.0,mobilat,incalzire_pardoseala
+Berceni,98.0,4,,1976,da,da,119000.0,mobilat,centrala_proprie
+Militari,62.0,4,3.0,2018,da,nu,140000.0,mobilat,centrala_bloc
+Drumul Taberei,108.0,2,8.0,2011,da,da,158000.0,nemobilat,centrala_proprie
+Floreasca,73.0,4,6.0,2011,nu,da,193000.0,mobilat,centrala_proprie
+Drumul Taberei,91.0,4,0.0,2005,da,nu,152000.0,nemobilat,centrala_bloc
