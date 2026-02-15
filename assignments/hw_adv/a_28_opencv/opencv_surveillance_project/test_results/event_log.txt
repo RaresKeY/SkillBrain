@@ -1,0 +1,8 @@
+[2026-02-15 23:31:58] MOTION: pixels=6312, boxes=2, file=motion_2026-02-15_23-31-58.jpg
+[2026-02-15 23:31:58] SMOKE: pixels=148661, file=smoke_2026-02-15_23-31-58.jpg
+[2026-02-15 23:32:16] MOTION: pixels=6312, boxes=2, file=motion_2026-02-15_23-32-16.jpg
+[2026-02-15 23:32:16] SMOKE: pixels=148661, file=smoke_2026-02-15_23-32-16.jpg
+[2026-02-15 23:32:17] SMOKE: pixels=150310, file=smoke_2026-02-15_23-32-17.jpg
+[2026-02-15 23:32:17] MOTION: pixels=5398, boxes=3, file=motion_2026-02-15_23-32-17.jpg
+[2026-02-15 23:32:18] MOTION: pixels=10246, boxes=4, file=motion_2026-02-15_23-32-18.jpg
+[2026-02-15 23:32:18] SMOKE: pixels=146437, file=smoke_2026-02-15_23-32-18.jpg
