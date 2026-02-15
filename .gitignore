@@ -38,8 +38,8 @@ assignments/hw_adv/a_28_computer_vision/person_detect/dataset
 assignments/hw_adv/a_28_computer_vision/person_detect/models
 assignments/hw_adv/a_28_computer_vision/person_detect/people_dataset_img
 assignments/hw_adv/a_39_40_yolo_on_feed/detections
-assignments/hw_adv/a_30_sklearn/dataset/random_expressions
-assignments/hw_adv/a_30_sklearn/docs
+assignments/hw_adv/a_28_computer_vision/flow.txt
+assignments/hw_adv/a_23_24_25_26_streamlit/old
 
 # Python cache / build files
 __pycache__/

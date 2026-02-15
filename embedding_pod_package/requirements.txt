@@ -1,0 +1,12 @@
+torch>=2.0.0
+numpy
+nltk
+tqdm
+requests
+scikit-learn
+matplotlib
+scipy
+gensim
+transformers
+datasets
+apache-beam
