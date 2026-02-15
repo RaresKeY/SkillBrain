@@ -32,14 +32,22 @@ assignments/hw_adv/tema_6/Perception.txt
 assignments/hw_adv/tema_6/data/Perception.txt
 assignments/hw_adv/tema_6/data/ref_img.jpg
 assignments/hw_adv/a_4_collections/_data_extra
-assignments/hw_adv/a_28_computer_vision/fire_detect/dataset
-assignments/hw_adv/a_28_computer_vision/fire_detect/models
-assignments/hw_adv/a_28_computer_vision/person_detect/dataset
-assignments/hw_adv/a_28_computer_vision/person_detect/models
-assignments/hw_adv/a_28_computer_vision/person_detect/people_dataset_img
+assignments/hw_adv/a_28_oos_computer_vision/fire_detect/dataset
+assignments/hw_adv/a_28_oos_computer_vision/fire_detect/models
+assignments/hw_adv/a_28_oos_computer_vision/person_detect/dataset
+assignments/hw_adv/a_28_oos_computer_vision/person_detect/models
+assignments/hw_adv/a_28_oos_computer_vision/person_detect/people_dataset_img
+assignments/hw_adv/a_28_oos_computer_vision/flow.txt
+assignments/hw_adv/a_28_oos_computer_vision/match_face/shape_predictor_68_face_landmarks.dat
+assignments/hw_adv/a_28_oos_computer_vision/match_face/*.dat.bz2
 assignments/hw_adv/a_39_40_yolo_on_feed/detections
-assignments/hw_adv/a_28_computer_vision/flow.txt
 assignments/hw_adv/a_23_24_25_26_streamlit/old
+
+assignments/hw_adv/a_29_face_recognition/config
+assignments/hw_adv/a_29_face_recognition/docs
+assignments/hw_adv/a_29_face_recognition/logs
+assignments/hw_adv/a_29_face_recognition/output
+assignments/hw_adv/a_29_face_recognition/videos
 
 # Python cache / build files
 __pycache__/

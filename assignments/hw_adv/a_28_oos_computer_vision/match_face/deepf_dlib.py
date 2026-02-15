@@ -1,9 +1,12 @@
 import os
+import bz2
+import shutil
 import cv2
 import numpy as np
 from deepface import DeepFace
 import dlib
 from pathlib import Path
+from urllib.request import urlretrieve
 
 # Configuration
 # Set to -1 to use CPU, or 0 for GPU if available and configured
@@ -14,13 +17,31 @@ current_dir = Path(__file__).parent.absolute()
 os.chdir(current_dir)
 
 # Dlib Setup
-DLIB_MODEL_PATH = "shape_predictor_68_face_landmarks.dat"
-if not os.path.exists(DLIB_MODEL_PATH):
-    print(f"Error: Dlib model not found at {DLIB_MODEL_PATH}. Please download it from http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2")
-    exit(1)
+DLIB_MODEL_PATH = current_dir / "shape_predictor_68_face_landmarks.dat"
+DLIB_MODEL_BZ2_URL = "https://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2"
+
+
+def ensure_dlib_model() -> Path:
+    if DLIB_MODEL_PATH.exists():
+        return DLIB_MODEL_PATH
+
+    compressed_path = DLIB_MODEL_PATH.with_suffix(".dat.bz2")
+    print(f"Dlib model not found. Downloading from: {DLIB_MODEL_BZ2_URL}")
+    urlretrieve(DLIB_MODEL_BZ2_URL, str(compressed_path))
+
+    print(f"Extracting model: {compressed_path.name}")
+    with bz2.open(compressed_path, "rb") as src, open(DLIB_MODEL_PATH, "wb") as dst:
+        shutil.copyfileobj(src, dst)
+
+    compressed_path.unlink(missing_ok=True)
+    print(f"Model ready at: {DLIB_MODEL_PATH}")
+    return DLIB_MODEL_PATH
+
+
+ensure_dlib_model()
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(DLIB_MODEL_PATH)
+predictor = dlib.shape_predictor(str(DLIB_MODEL_PATH))
 
 def draw_dlib_landmarks(img):
     """
