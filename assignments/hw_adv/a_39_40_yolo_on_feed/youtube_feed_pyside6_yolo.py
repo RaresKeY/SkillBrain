@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
+from urllib.request import urlretrieve
 
 import cv2
 import numpy as np
@@ -35,6 +36,17 @@ except Exception as import_exc:  # pragma: no cover
     YOLO_IMPORT_ERROR = import_exc
 else:
     YOLO_IMPORT_ERROR = None
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+MODELS_DIR = SCRIPT_DIR / "models"
+
+MODEL_DOWNLOAD_URLS = {
+    "yolov5m.pt": "https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5m.pt",
+    "yolov5l.pt": "https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5l.pt",
+    "yolov5x.pt": "https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5x.pt",
+    "yolo11m.pt": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m.pt",
+    "yolo11l.pt": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11l.pt",
+}
 
 
 @dataclass
@@ -112,6 +124,30 @@ WINDOW_HEIGHT = {settings.window_height!r}
     config_path.write_text(content, encoding="utf-8")
 
 
+def resolve_model_path(model_name: str, status_cb=None) -> Path:
+    """Ensure model exists under local ./models folder, downloading if needed."""
+    MODELS_DIR.mkdir(parents=True, exist_ok=True)
+
+    model_path = Path(model_name)
+    if model_path.is_absolute() and model_path.exists():
+        return model_path
+
+    local_model = MODELS_DIR / model_path.name
+    if local_model.exists():
+        return local_model
+
+    url = MODEL_DOWNLOAD_URLS.get(model_path.name)
+    if not url:
+        raise RuntimeError(
+            f"Model '{model_name}' not found in local models folder and no download URL configured."
+        )
+
+    if status_cb is not None:
+        status_cb(f"Downloading model to {local_model} ...")
+    urlretrieve(url, str(local_model))
+    return local_model
+
+
 class VideoThread(QThread):
     change_pixmap_signal = Signal(QImage)
     status_signal = Signal(str)
@@ -153,8 +189,9 @@ class VideoThread(QThread):
         if YOLO is None:
             raise RuntimeError(f"Failed to import ultralytics: {YOLO_IMPORT_ERROR}")
 
-        self.status_signal.emit(f"Loading model: {self.settings.model_name}...")
-        self.model = YOLO(self.settings.model_name)
+        model_path = resolve_model_path(self.settings.model_name, status_cb=self.status_signal.emit)
+        self.status_signal.emit(f"Loading model: {model_path.name} ...")
+        self.model = YOLO(str(model_path))
         self.names = self.model.names if hasattr(self.model, "names") else {}
 
         draw_classes = [c.strip() for c in self.settings.draw_classes if c.strip()]
@@ -211,7 +248,7 @@ class VideoThread(QThread):
         if now_ts - self.last_save_ts < self.settings.save_min_interval_s:
             return
 
-        out_dir = Path(self.settings.save_dir)
+        out_dir = SCRIPT_DIR / self.settings.save_dir
         out_dir.mkdir(parents=True, exist_ok=True)
         filename = now.strftime("det_%Y%m%d_%H%M%S_%f")[:-3] + ".jpg"
         out_path = out_dir / filename
@@ -502,6 +539,11 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == "__main__":
+    # Make all relative paths resolve to this assignment folder.
+    import os
+
+    os.chdir(SCRIPT_DIR)
+
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
