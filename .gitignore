@@ -23,6 +23,7 @@ env/
 # Specific ignores / datasets / models
 hw_templates
 assignments/hw_adv/*/models
+assignments/hw_adv/*/artifacts
 assignments/hw_adv/*/data
 
 assignments/hw_adv/tema_3/tema_3.ipynb
