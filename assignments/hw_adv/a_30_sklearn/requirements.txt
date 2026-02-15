@@ -1,0 +1,15 @@
+pandas
+numpy
+joblib
+scikit-learn
+mediapipe
+opencv-python
+ursina
+google-generativeai
+google-genai
+Pillow
+torch
+torchvision
+python-dotenv
+keyring
+pydantic
