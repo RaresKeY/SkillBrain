@@ -20,15 +20,23 @@ env/
 # Session exercises
 /sessions
 
-# Specific ignores
+# Specific ignores / datasets / models
 hw_templates
+assignments/hw_adv/*/models
+assignments/hw_adv/*/data
+
 assignments/hw_adv/tema_3/tema_3.ipynb
 assignments/hw_adv/tema_4/_data_extra
-assignments/hw_adv/**/requirements.txt
 assignments/hw_adv/tema_6/Perception.txt
 assignments/hw_adv/tema_6/data/Perception.txt
 assignments/hw_adv/tema_6/data/ref_img.jpg
 assignments/hw_adv/a_4_collections/_data_extra
+assignments/hw_adv/a_28_computer_vision/fire_detect/dataset
+assignments/hw_adv/a_28_computer_vision/fire_detect/models
+assignments/hw_adv/a_28_computer_vision/person_detect/dataset
+assignments/hw_adv/a_28_computer_vision/person_detect/models
+assignments/hw_adv/a_28_computer_vision/person_detect/people_dataset_img
+assignments/hw_adv/a_39_40_yolo_on_feed/detections
 
 # Python cache / build files
 __pycache__/
@@ -48,3 +56,4 @@ dist/
 # OS-specific junk
 .DS_Store
 Thumbs.db
+.aider*
