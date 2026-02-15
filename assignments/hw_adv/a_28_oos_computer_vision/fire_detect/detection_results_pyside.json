@@ -1,0 +1,984 @@
+[
+  {
+    "detections": [
+      {
+        "frame": 1,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              796,
+              416
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.81
+          }
+        ],
+        "timestamp_sec": 0.04
+      },
+      {
+        "frame": 2,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              796,
+              416
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.8
+          }
+        ],
+        "timestamp_sec": 0.08
+      },
+      {
+        "frame": 3,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              795,
+              415
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.8
+          }
+        ],
+        "timestamp_sec": 0.12
+      },
+      {
+        "frame": 4,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              792,
+              414
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.8
+          }
+        ],
+        "timestamp_sec": 0.16
+      },
+      {
+        "frame": 5,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              791,
+              412
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.79
+          }
+        ],
+        "timestamp_sec": 0.2
+      },
+      {
+        "frame": 6,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              789,
+              409
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.74
+          }
+        ],
+        "timestamp_sec": 0.24
+      },
+      {
+        "frame": 7,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              793,
+              407
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.77
+          }
+        ],
+        "timestamp_sec": 0.28
+      },
+      {
+        "frame": 8,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              802,
+              398
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.71
+          }
+        ],
+        "timestamp_sec": 0.32
+      },
+      {
+        "frame": 9,
+        "objects": [
+          {
+            "bbox": [
+              129,
+              0,
+              796,
+              396
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.72
+          }
+        ],
+        "timestamp_sec": 0.36
+      },
+      {
+        "frame": 10,
+        "objects": [
+          {
+            "bbox": [
+              128,
+              0,
+              803,
+              388
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.77
+          }
+        ],
+        "timestamp_sec": 0.4
+      },
+      {
+        "frame": 11,
+        "objects": [
+          {
+            "bbox": [
+              129,
+              0,
+              805,
+              385
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.86
+          }
+        ],
+        "timestamp_sec": 0.44
+      },
+      {
+        "frame": 12,
+        "objects": [
+          {
+            "bbox": [
+              127,
+              0,
+              820,
+              384
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.8
+          }
+        ],
+        "timestamp_sec": 0.48
+      },
+      {
+        "frame": 13,
+        "objects": [
+          {
+            "bbox": [
+              128,
+              0,
+              828,
+              374
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.84
+          }
+        ],
+        "timestamp_sec": 0.52
+      },
+      {
+        "frame": 14,
+        "objects": [
+          {
+            "bbox": [
+              125,
+              0,
+              814,
+              371
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.86
+          }
+        ],
+        "timestamp_sec": 0.56
+      },
+      {
+        "frame": 15,
+        "objects": [
+          {
+            "bbox": [
+              124,
+              0,
+              809,
+              363
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.85
+          }
+        ],
+        "timestamp_sec": 0.6
+      },
+      {
+        "frame": 16,
+        "objects": [
+          {
+            "bbox": [
+              128,
+              0,
+              823,
+              353
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.82
+          }
+        ],
+        "timestamp_sec": 0.64
+      },
+      {
+        "frame": 17,
+        "objects": [
+          {
+            "bbox": [
+              123,
+              0,
+              819,
+              358
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.83
+          }
+        ],
+        "timestamp_sec": 0.68
+      },
+      {
+        "frame": 18,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              821,
+              355
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.82
+          }
+        ],
+        "timestamp_sec": 0.72
+      },
+      {
+        "frame": 19,
+        "objects": [
+          {
+            "bbox": [
+              134,
+              0,
+              830,
+              356
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.81
+          }
+        ],
+        "timestamp_sec": 0.76
+      },
+      {
+        "frame": 20,
+        "objects": [
+          {
+            "bbox": [
+              128,
+              0,
+              828,
+              355
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.82
+          }
+        ],
+        "timestamp_sec": 0.8
+      },
+      {
+        "frame": 21,
+        "objects": [
+          {
+            "bbox": [
+              133,
+              0,
+              827,
+              352
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.8
+          }
+        ],
+        "timestamp_sec": 0.84
+      },
+      {
+        "frame": 22,
+        "objects": [
+          {
+            "bbox": [
+              135,
+              0,
+              835,
+              348
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.78
+          }
+        ],
+        "timestamp_sec": 0.88
+      },
+      {
+        "frame": 23,
+        "objects": [
+          {
+            "bbox": [
+              134,
+              0,
+              840,
+              346
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.75
+          }
+        ],
+        "timestamp_sec": 0.92
+      },
+      {
+        "frame": 24,
+        "objects": [
+          {
+            "bbox": [
+              133,
+              0,
+              839,
+              341
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.79
+          }
+        ],
+        "timestamp_sec": 0.96
+      },
+      {
+        "frame": 25,
+        "objects": [
+          {
+            "bbox": [
+              132,
+              0,
+              845,
+              344
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.81
+          }
+        ],
+        "timestamp_sec": 1.0
+      },
+      {
+        "frame": 26,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              858,
+              347
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.8
+          }
+        ],
+        "timestamp_sec": 1.04
+      },
+      {
+        "frame": 27,
+        "objects": [
+          {
+            "bbox": [
+              132,
+              0,
+              856,
+              339
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.82
+          }
+        ],
+        "timestamp_sec": 1.08
+      },
+      {
+        "frame": 28,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              864,
+              341
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.83
+          }
+        ],
+        "timestamp_sec": 1.12
+      },
+      {
+        "frame": 29,
+        "objects": [
+          {
+            "bbox": [
+              136,
+              0,
+              862,
+              344
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.82
+          }
+        ],
+        "timestamp_sec": 1.16
+      },
+      {
+        "frame": 30,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              872,
+              343
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.81
+          }
+        ],
+        "timestamp_sec": 1.2
+      },
+      {
+        "frame": 31,
+        "objects": [
+          {
+            "bbox": [
+              136,
+              0,
+              867,
+              349
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.8
+          }
+        ],
+        "timestamp_sec": 1.24
+      },
+      {
+        "frame": 32,
+        "objects": [
+          {
+            "bbox": [
+              133,
+              0,
+              868,
+              352
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.84
+          }
+        ],
+        "timestamp_sec": 1.28
+      },
+      {
+        "frame": 33,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              873,
+              354
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.85
+          }
+        ],
+        "timestamp_sec": 1.32
+      },
+      {
+        "frame": 34,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              873,
+              356
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.84
+          }
+        ],
+        "timestamp_sec": 1.36
+      },
+      {
+        "frame": 35,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              872,
+              355
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.83
+          }
+        ],
+        "timestamp_sec": 1.4
+      },
+      {
+        "frame": 36,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              882,
+              354
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.82
+          }
+        ],
+        "timestamp_sec": 1.44
+      },
+      {
+        "frame": 37,
+        "objects": [
+          {
+            "bbox": [
+              134,
+              0,
+              881,
+              357
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.79
+          }
+        ],
+        "timestamp_sec": 1.48
+      },
+      {
+        "frame": 38,
+        "objects": [
+          {
+            "bbox": [
+              136,
+              0,
+              893,
+              358
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.77
+          }
+        ],
+        "timestamp_sec": 1.52
+      },
+      {
+        "frame": 39,
+        "objects": [
+          {
+            "bbox": [
+              139,
+              0,
+              890,
+              358
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.71
+          }
+        ],
+        "timestamp_sec": 1.56
+      },
+      {
+        "frame": 40,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              890,
+              354
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.63
+          }
+        ],
+        "timestamp_sec": 1.6
+      },
+      {
+        "frame": 41,
+        "objects": [
+          {
+            "bbox": [
+              148,
+              0,
+              897,
+              358
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.61
+          }
+        ],
+        "timestamp_sec": 1.64
+      },
+      {
+        "frame": 42,
+        "objects": [
+          {
+            "bbox": [
+              149,
+              0,
+              892,
+              359
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.52
+          }
+        ],
+        "timestamp_sec": 1.68
+      },
+      {
+        "frame": 43,
+        "objects": [
+          {
+            "bbox": [
+              145,
+              0,
+              892,
+              354
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.59
+          }
+        ],
+        "timestamp_sec": 1.72
+      },
+      {
+        "frame": 44,
+        "objects": [
+          {
+            "bbox": [
+              137,
+              0,
+              899,
+              355
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.68
+          }
+        ],
+        "timestamp_sec": 1.76
+      },
+      {
+        "frame": 45,
+        "objects": [
+          {
+            "bbox": [
+              135,
+              0,
+              904,
+              358
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.68
+          }
+        ],
+        "timestamp_sec": 1.8
+      },
+      {
+        "frame": 46,
+        "objects": [
+          {
+            "bbox": [
+              132,
+              0,
+              917,
+              356
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.71
+          }
+        ],
+        "timestamp_sec": 1.84
+      },
+      {
+        "frame": 47,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              922,
+              354
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.73
+          }
+        ],
+        "timestamp_sec": 1.88
+      },
+      {
+        "frame": 48,
+        "objects": [
+          {
+            "bbox": [
+              132,
+              0,
+              923,
+              357
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.67
+          }
+        ],
+        "timestamp_sec": 1.92
+      },
+      {
+        "frame": 49,
+        "objects": [
+          {
+            "bbox": [
+              132,
+              0,
+              930,
+              369
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.59
+          }
+        ],
+        "timestamp_sec": 1.96
+      },
+      {
+        "frame": 50,
+        "objects": [
+          {
+            "bbox": [
+              129,
+              0,
+              929,
+              369
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.52
+          },
+          {
+            "bbox": [
+              542,
+              179,
+              881,
+              337
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.41
+          }
+        ],
+        "timestamp_sec": 2.0
+      },
+      {
+        "frame": 51,
+        "objects": [
+          {
+            "bbox": [
+              128,
+              0,
+              932,
+              371
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.69
+          }
+        ],
+        "timestamp_sec": 2.04
+      },
+      {
+        "frame": 52,
+        "objects": [
+          {
+            "bbox": [
+              129,
+              0,
+              930,
+              369
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.66
+          }
+        ],
+        "timestamp_sec": 2.08
+      },
+      {
+        "frame": 53,
+        "objects": [
+          {
+            "bbox": [
+              128,
+              0,
+              927,
+              371
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.67
+          }
+        ],
+        "timestamp_sec": 2.12
+      },
+      {
+        "frame": 54,
+        "objects": [
+          {
+            "bbox": [
+              128,
+              0,
+              928,
+              373
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.64
+          }
+        ],
+        "timestamp_sec": 2.16
+      },
+      {
+        "frame": 55,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              930,
+              377
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.72
+          }
+        ],
+        "timestamp_sec": 2.2
+      },
+      {
+        "frame": 56,
+        "objects": [
+          {
+            "bbox": [
+              130,
+              0,
+              932,
+              384
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.52
+          }
+        ],
+        "timestamp_sec": 2.24
+      },
+      {
+        "frame": 57,
+        "objects": [
+          {
+            "bbox": [
+              534,
+              192,
+              916,
+              369
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.46
+          },
+          {
+            "bbox": [
+              131,
+              0,
+              935,
+              387
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.42
+          }
+        ],
+        "timestamp_sec": 2.28
+      },
+      {
+        "frame": 58,
+        "objects": [
+          {
+            "bbox": [
+              131,
+              0,
+              936,
+              393
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.5
+          }
+        ],
+        "timestamp_sec": 2.32
+      },
+      {
+        "frame": 59,
+        "objects": [
+          {
+            "bbox": [
+              506,
+              190,
+              917,
+              382
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.59
+          },
+          {
+            "bbox": [
+              131,
+              0,
+              935,
+              328
+            ],
+            "class": "fire-smoke",
+            "confidence": 0.44
+          }
+        ],
+        "timestamp_sec": 2.36
+      }
+    ],
+    "filename": "testpos04.820.avi",
+    "has_detection": true,
+    "model": "fire_best.pt",
+    "path": "dataset/fire_dataset/smoke_videos.1407/pos/testpos04.820.avi"
+  }
+]

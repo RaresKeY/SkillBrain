@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    {
+      "folder_name": "faces_dataset",
+      "category": "Person",
+      "test_case": "Face Detection",
+      "positive_keywords": [
+        "person",
+        "man",
+        "woman"
+      ],
+      "false_positive_keywords": [
+        "statue",
+        "mannequin",
+        "mask",
+        "monkey"
+      ],
+      "negative_keywords": [
+        "mountain",
+        "forest"
+      ]
+    }
+  ]
+}

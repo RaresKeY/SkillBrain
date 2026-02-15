@@ -1,0 +1,331 @@
+[
+  {
+    "filename": "Aerial View of Misty Urban Sunrise Panorama Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [aerial-view-of-misty-urban-sunrise-panorama-35497914].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Aerial View of Misty Urban Sunrise Panorama Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [aerial-view-of-misty-urban-sunrise-panorama-35497914].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Aerial View of Misty Urban Sunrise Panorama Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [aerial-view-of-misty-urban-sunrise-panorama-35497914].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Aerial View of Misty Urban Sunrise Panorama Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [aerial-view-of-misty-urban-sunrise-panorama-35497914].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Beautiful Cumulus Clouds in Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [beautiful-cumulus-clouds-in-blue-sky-34321791].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Beautiful Cumulus Clouds in Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [beautiful-cumulus-clouds-in-blue-sky-34321791].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Beautiful Cumulus Clouds in Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [beautiful-cumulus-clouds-in-blue-sky-34321791].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Beautiful Cumulus Clouds in Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [beautiful-cumulus-clouds-in-blue-sky-34321791].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 1
+  },
+  {
+    "filename": "Blurred Evening City Traffic Bokeh Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [blurred-evening-city-traffic-bokeh-35431898].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Blurred Evening City Traffic Bokeh Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [blurred-evening-city-traffic-bokeh-35431898].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 1
+  },
+  {
+    "filename": "Blurred Evening City Traffic Bokeh Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [blurred-evening-city-traffic-bokeh-35431898].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Blurred Evening City Traffic Bokeh Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [blurred-evening-city-traffic-bokeh-35431898].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 12
+  },
+  {
+    "filename": "Cumulus Clouds Formation In The Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [cumulus-clouds-formation-in-the-sky-3129769].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Cumulus Clouds Formation In The Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [cumulus-clouds-formation-in-the-sky-3129769].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 1
+  },
+  {
+    "filename": "Cumulus Clouds Formation In The Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [cumulus-clouds-formation-in-the-sky-3129769].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Cumulus Clouds Formation In The Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [cumulus-clouds-formation-in-the-sky-3129769].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Dramatic Cloudscape with Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-cloudscape-with-blue-sky-34418450].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Cloudscape with Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-cloudscape-with-blue-sky-34418450].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Dramatic Cloudscape with Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-cloudscape-with-blue-sky-34418450].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Cloudscape with Blue Sky Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-cloudscape-with-blue-sky-34418450].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Dramatic Foggy Mountain Landscape at Dawn Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-foggy-mountain-landscape-at-dawn-35574242].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Foggy Mountain Landscape at Dawn Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-foggy-mountain-landscape-at-dawn-35574242].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Dramatic Foggy Mountain Landscape at Dawn Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-foggy-mountain-landscape-at-dawn-35574242].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Foggy Mountain Landscape at Dawn Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-foggy-mountain-landscape-at-dawn-35574242].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 2
+  },
+  {
+    "filename": "Dramatic Misty Mountain Landscape in Italy Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-misty-mountain-landscape-in-italy-35574239].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Misty Mountain Landscape in Italy Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-misty-mountain-landscape-in-italy-35574239].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 5
+  },
+  {
+    "filename": "Dramatic Misty Mountain Landscape in Italy Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-misty-mountain-landscape-in-italy-35574239].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Misty Mountain Landscape in Italy Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-misty-mountain-landscape-in-italy-35574239].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 12
+  },
+  {
+    "filename": "Dramatic Overcast Mountain Landscape Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-overcast-mountain-landscape-35574245].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Overcast Mountain Landscape Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-overcast-mountain-landscape-35574245].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Dramatic Overcast Mountain Landscape Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-overcast-mountain-landscape-35574245].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Dramatic Overcast Mountain Landscape Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [dramatic-overcast-mountain-landscape-35574245].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 12
+  },
+  {
+    "filename": "Formation Of Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [formation-of-clouds-855507].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Formation Of Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [formation-of-clouds-855507].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 5
+  },
+  {
+    "filename": "Formation Of Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [formation-of-clouds-855507].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Formation Of Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [formation-of-clouds-855507].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 28
+  },
+  {
+    "filename": "Forma\u00e7\u00e3o De Nuvens \u00b7 Free Stock Video [formation-of-clouds-855507].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Forma\u00e7\u00e3o De Nuvens \u00b7 Free Stock Video [formation-of-clouds-855507].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 5
+  },
+  {
+    "filename": "Forma\u00e7\u00e3o De Nuvens \u00b7 Free Stock Video [formation-of-clouds-855507].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Forma\u00e7\u00e3o De Nuvens \u00b7 Free Stock Video [formation-of-clouds-855507].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 28
+  },
+  {
+    "filename": "Moody Foggy Mountain Landscape in Dolomites Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [moody-foggy-mountain-landscape-in-dolomites-35574240].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Moody Foggy Mountain Landscape in Dolomites Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [moody-foggy-mountain-landscape-in-dolomites-35574240].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 15
+  },
+  {
+    "filename": "Moody Foggy Mountain Landscape in Dolomites Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [moody-foggy-mountain-landscape-in-dolomites-35574240].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Moody Foggy Mountain Landscape in Dolomites Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [moody-foggy-mountain-landscape-in-dolomites-35574240].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 10
+  },
+  {
+    "filename": "Serene Blue Sky with Fluffy White Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-blue-sky-with-fluffy-white-clouds-35255642].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Serene Blue Sky with Fluffy White Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-blue-sky-with-fluffy-white-clouds-35255642].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 3
+  },
+  {
+    "filename": "Serene Blue Sky with Fluffy White Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-blue-sky-with-fluffy-white-clouds-35255642].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Serene Blue Sky with Fluffy White Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-blue-sky-with-fluffy-white-clouds-35255642].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Serene Foggy Landscape in Kashmir Mountains Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-foggy-landscape-in-kashmir-mountains-35417047].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Serene Foggy Landscape in Kashmir Mountains Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-foggy-landscape-in-kashmir-mountains-35417047].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Serene Foggy Landscape in Kashmir Mountains Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-foggy-landscape-in-kashmir-mountains-35417047].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Serene Foggy Landscape in Kashmir Mountains Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-foggy-landscape-in-kashmir-mountains-35417047].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Serene Mountain Landscape in Kashmir Valley Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-mountain-landscape-in-kashmir-valley-35417050].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Serene Mountain Landscape in Kashmir Valley Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-mountain-landscape-in-kashmir-valley-35417050].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Serene Mountain Landscape in Kashmir Valley Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-mountain-landscape-in-kashmir-valley-35417050].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Serene Mountain Landscape in Kashmir Valley Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [serene-mountain-landscape-in-kashmir-valley-35417050].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Time Lapse Of Cumulus Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-cumulus-clouds-856171].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Time Lapse Of Cumulus Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-cumulus-clouds-856171].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 2
+  },
+  {
+    "filename": "Time Lapse Of Cumulus Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-cumulus-clouds-856171].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Time Lapse Of Cumulus Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-cumulus-clouds-856171].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Time Lapse Of Sunset Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-sunset-1110140].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Time Lapse Of Sunset Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-sunset-1110140].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 9
+  },
+  {
+    "filename": "Time Lapse Of Sunset Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-sunset-1110140].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Time Lapse Of Sunset Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [time-lapse-of-sunset-1110140].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Tranquil Blue Sky with White Clouds Passing Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [tranquil-blue-sky-with-white-clouds-passing-34335570].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Tranquil Blue Sky with White Clouds Passing Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [tranquil-blue-sky-with-white-clouds-passing-34335570].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 1
+  },
+  {
+    "filename": "Tranquil Blue Sky with White Clouds Passing Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [tranquil-blue-sky-with-white-clouds-passing-34335570].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Tranquil Blue Sky with White Clouds Passing Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [tranquil-blue-sky-with-white-clouds-passing-34335570].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Video Footage Of Flying Above And Over The Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-footage-of-flying-above-and-over-the-clouds-3129752].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Video Footage Of Flying Above And Over The Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-footage-of-flying-above-and-over-the-clouds-3129752].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Video Footage Of Flying Above And Over The Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-footage-of-flying-above-and-over-the-clouds-3129752].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Video Footage Of Flying Above And Over The Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-footage-of-flying-above-and-over-the-clouds-3129752].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Video Of Sky With Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-of-sky-with-clouds-855785].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Video Of Sky With Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-of-sky-with-clouds-855785].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "Video Of Sky With Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-of-sky-with-clouds-855785].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive/Video Of Sky With Clouds Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [video-of-sky-with-clouds-855785].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "A Burst Of White Powder Thrown In The Air Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-burst-of-white-powder-thrown-in-the-air-3045163].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Burst Of White Powder Thrown In The Air Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-burst-of-white-powder-thrown-in-the-air-3045163].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 4
+  },
+  {
+    "filename": "A Burst Of White Powder Thrown In The Air Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-burst-of-white-powder-thrown-in-the-air-3045163].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Burst Of White Powder Thrown In The Air Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-burst-of-white-powder-thrown-in-the-air-3045163].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 4
+  },
+  {
+    "filename": "A Man's Hand Filled With White Talc Powder Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-man-s-hand-filled-with-white-talc-powder-4761423].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Man's Hand Filled With White Talc Powder Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-man-s-hand-filled-with-white-talc-powder-4761423].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "A Man's Hand Filled With White Talc Powder Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-man-s-hand-filled-with-white-talc-powder-4761423].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Man's Hand Filled With White Talc Powder Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-man-s-hand-filled-with-white-talc-powder-4761423].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": true,
+    "detection_count": 5
+  },
+  {
+    "filename": "A Sand Blowing by the Wind Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-sand-blowing-by-the-wind-4996615].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Sand Blowing by the Wind Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-sand-blowing-by-the-wind-4996615].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "A Sand Blowing by the Wind Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-sand-blowing-by-the-wind-4996615].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Sand Blowing by the Wind Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-sand-blowing-by-the-wind-4996615].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "A Woman Rubbing Excess Flour Off Her Hands While Baking Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-woman-rubbing-excess-flour-off-her-hands-while-baking-3325973].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Woman Rubbing Excess Flour Off Her Hands While Baking Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-woman-rubbing-excess-flour-off-her-hands-while-baking-3325973].mp4",
+    "model": "fire_best.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "A Woman Rubbing Excess Flour Off Her Hands While Baking Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-woman-rubbing-excess-flour-off-her-hands-while-baking-3325973].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A Woman Rubbing Excess Flour Off Her Hands While Baking Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-woman-rubbing-excess-flour-off-her-hands-while-baking-3325973].mp4",
+    "model": "firedetect-11x.pt",
+    "has_detection": false,
+    "detection_count": 0
+  },
+  {
+    "filename": "A person holding yellow powder in their hands Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-person-holding-yellow-powder-in-their-hands-4631982].mp4",
+    "path": "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive/A person holding yellow powder in their hands Free Stock Video Footage, Royalty-Free 4K & HD Video Clip [a-person-holding-yellow-powder-in-their-hands-4631982].mp4",
+    "model": "fire_best.pt",
+    "has_detection": true,
+    "detection_count": 15
+  }
+]
