@@ -25,6 +25,8 @@ hw_templates
 assignments/hw_adv/*/models
 assignments/hw_adv/*/artifacts
 
+*.7z
+
 assignments/hw_adv/tema_3/tema_3.ipynb
 assignments/hw_adv/tema_4/_data_extra
 assignments/hw_adv/tema_6/Perception.txt
