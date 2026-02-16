@@ -133,8 +133,25 @@ Advanced plotting assignment with confidence intervals, heatmaps, and styled das
 ### `a_20_21_seaborn`
 A guided seaborn curriculum with progressive exercises and dataset exploration.
 
+![a_20_21 exercise 1 histogram](assignments/hw_adv/a_20_21_seaborn/export/ex1_histogram_titanic.png)
+![a_20_21 exercise 2 pairplot](assignments/hw_adv/a_20_21_seaborn/export/ex2_pairplot_iris.png)
+![a_20_21 exercise 3 heatmap](assignments/hw_adv/a_20_21_seaborn/export/ex3_penguins_heatmap.png)
+![a_20_21 exercise 4 violinplot](assignments/hw_adv/a_20_21_seaborn/export/ex4_violin_salary_experience.png)
+![a_20_21 exercise 5 facetgrid](assignments/hw_adv/a_20_21_seaborn/export/ex5_facetgrid_department_sex.png)
+![a_20_21 exercise 6 barplot](assignments/hw_adv/a_20_21_seaborn/export/ex6_barplot_agegroup_salary.png)
+
 ### `a_22_plotly`
 Interactive/animated Plotly exercises with shareable HTML outputs and configuration experiments.
+
+Selected lightweight exports:
+- [`ex1_scatter_age_experience.html` (~10 KB)](assignments/hw_adv/a_22_plotly/export/ex1_scatter_age_experience.html)
+- [`ex2_budget_dashboard.html` (~10 KB)](assignments/hw_adv/a_22_plotly/export/ex2_budget_dashboard.html)
+- [`ex3_team_boxplot.html` (~12 KB)](assignments/hw_adv/a_22_plotly/export/ex3_team_boxplot.html)
+- [`ex4_random_heatmap.html` (~9 KB)](assignments/hw_adv/a_22_plotly/export/ex4_random_heatmap.html)
+- [`challenge2_animated_scatter.html` (~25 KB)](assignments/hw_adv/a_22_plotly/export/challenge2_animated_scatter.html)
+
+Skipped in README due size:
+- `ex5_scatter_share_full.html` (~4.7 MB)
 
 ### `a_23_basic_dashboard`
 Entry-level Streamlit app with table filters and KPI-style summary metrics.
