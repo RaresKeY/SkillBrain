@@ -158,7 +158,7 @@ Entry-level Streamlit app with table filters and KPI-style summary metrics.
 
 Live app: [basic-dashboard-c.streamlit.app](https://basic-dashboard-c.streamlit.app/)
 
-<iframe src="https://basic-dashboard-c.streamlit.app/" width="100%" height="640"></iframe>
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://basic-dashboard-c.streamlit.app/?embed=true)
 
 ### `a_24_advanced_analytics`
 Adds interactive analytics controls, correlation exploration, and grouped aggregation views.

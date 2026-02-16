@@ -43,6 +43,7 @@ assignments/hw_adv/a_28_oos_computer_vision/match_face/shape_predictor_68_face_l
 assignments/hw_adv/a_28_oos_computer_vision/match_face/*.dat.bz2
 assignments/hw_adv/a_39_40_yolo_on_feed/detections
 assignments/hw_adv/a_23_24_25_26_streamlit/old
+streamlit_packages/
 
 assignments/hw_adv/a_29_face_recognition/config
 assignments/hw_adv/a_29_face_recognition/docs
