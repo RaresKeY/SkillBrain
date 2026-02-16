@@ -1,0 +1,26 @@
+{
+  "History Quiz": [
+    {
+      "question": "Who discovered America?",
+      "options": [
+        "Columbus",
+        "Newton",
+        "Einstein"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Year of WW2 start?",
+      "options": [
+        "1914",
+        "1939",
+        "1945"
+      ],
+      "correct": [
+        1
+      ]
+    }
+  ]
+}
