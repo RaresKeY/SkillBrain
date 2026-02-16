@@ -237,3 +237,4 @@ ipywidgets
 widgetsnbextension
 jupyterlab-widgets
 apache-beam
+pygame
