@@ -1,0 +1,12 @@
+Python makes data processing simple and fast.
+Hashing helps Python applications scale.
+In this text, python appears many times, and data appears many times too.
+Data cleaning is important: remove punctuation, normalize TEXT, and count words.
+Counter is a practical tool for counting words in Python.
+
+When data grows, hashing and sets become useful.
+When data grows, dictionaries become useful.
+When data grows, careful thinking becomes useful.
+
+Python, data, and hashing are core ideas in this exercise.
+Python developers analyze data and build efficient solutions.
