@@ -156,6 +156,10 @@ Skipped in README due size:
 ### `a_23_basic_dashboard`
 Entry-level Streamlit app with table filters and KPI-style summary metrics.
 
+Live app: [basic-dashboard-c.streamlit.app](https://basic-dashboard-c.streamlit.app/)
+
+<iframe src="https://basic-dashboard-c.streamlit.app/" width="100%" height="640"></iframe>
+
 ### `a_24_advanced_analytics`
 Adds interactive analytics controls, correlation exploration, and grouped aggregation views.
 
