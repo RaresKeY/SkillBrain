@@ -24,7 +24,6 @@ env/
 hw_templates
 assignments/hw_adv/*/models
 assignments/hw_adv/*/artifacts
-assignments/hw_adv/*/data
 
 assignments/hw_adv/tema_3/tema_3.ipynb
 assignments/hw_adv/tema_4/_data_extra
@@ -48,6 +47,9 @@ assignments/hw_adv/a_29_face_recognition/docs
 assignments/hw_adv/a_29_face_recognition/logs
 assignments/hw_adv/a_29_face_recognition/output
 assignments/hw_adv/a_29_face_recognition/videos
+
+assignments/hw_adv/a_29_face_recognition/data
+assignments/hw_adv/a_35_1_mnist/data
 
 # Python cache / build files
 __pycache__/
