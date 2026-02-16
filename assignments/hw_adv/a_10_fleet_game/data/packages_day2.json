@@ -1,0 +1,18 @@
+{
+  "day": 2,
+  "comment": "Day 2 - MODERATE: ~29m³ total (85% of 35m³ capacity) - Getting busier!",
+  "packages": [
+    {"id": "pkg_011", "destination": {"x": 18, "y": 28}, "volume_m3": 2.5, "payment": 48, "priority": 1, "description": "Electronics"},
+    {"id": "pkg_012", "destination": {"x": 42, "y": 62}, "volume_m3": 3.2, "payment": 62, "priority": 1, "description": "Office equipment"},
+    {"id": "pkg_013", "destination": {"x": 68, "y": 22}, "volume_m3": 2.3, "payment": 45, "priority": 1, "description": "Books and media"},
+    {"id": "pkg_014", "destination": {"x": 32, "y": 82}, "volume_m3": 4.5, "payment": 82, "priority": 2, "description": "Furniture parts"},
+    {"id": "pkg_015", "destination": {"x": 52, "y": 38}, "volume_m3": 1.8, "payment": 36, "priority": 1, "description": "Stationery"},
+    {"id": "pkg_016", "destination": {"x": 12, "y": 72}, "volume_m3": 2.8, "payment": 54, "priority": 1, "description": "Kitchen supplies"},
+    {"id": "pkg_017", "destination": {"x": 78, "y": 58}, "volume_m3": 3.0, "payment": 58, "priority": 2, "description": "Tech gadgets"},
+    {"id": "pkg_018", "destination": {"x": 58, "y": 12}, "volume_m3": 2.0, "payment": 42, "priority": 1, "description": "Apparel"},
+    {"id": "pkg_019", "destination": {"x": 28, "y": 45}, "volume_m3": 2.6, "payment": 51, "priority": 1, "description": "Games"},
+    {"id": "pkg_020", "destination": {"x": 48, "y": 68}, "volume_m3": 1.9, "payment": 39, "priority": 1, "description": "Home decor"},
+    {"id": "pkg_021", "destination": {"x": 85, "y": 35}, "volume_m3": 1.6, "payment": 34, "priority": 1, "description": "Accessories"},
+    {"id": "pkg_022", "destination": {"x": 22, "y": 55}, "volume_m3": 0.9, "payment": 28, "priority": 1, "description": "Jewelry"}
+  ]
+}

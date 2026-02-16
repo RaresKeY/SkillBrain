@@ -1,0 +1,59 @@
+{
+  "width": 100,
+  "height": 100,
+  "depot": {
+    "x": 0,
+    "y": 0,
+    "name": "Main Depot"
+  },
+  "locations": [
+    {
+      "id": "loc_001",
+      "name": "Residential Area North",
+      "x": 20,
+      "y": 30
+    },
+    {
+      "id": "loc_002",
+      "name": "Business District",
+      "x": 45,
+      "y": 60
+    },
+    {
+      "id": "loc_003",
+      "name": "Suburbs East",
+      "x": 70,
+      "y": 20
+    },
+    {
+      "id": "loc_004",
+      "name": "Industrial Zone",
+      "x": 35,
+      "y": 85
+    },
+    {
+      "id": "loc_005",
+      "name": "Shopping Center",
+      "x": 55,
+      "y": 40
+    },
+    {
+      "id": "loc_006",
+      "name": "Residential Area South",
+      "x": 15,
+      "y": 75
+    },
+    {
+      "id": "loc_007",
+      "name": "Tech Park",
+      "x": 80,
+      "y": 55
+    },
+    {
+      "id": "loc_008",
+      "name": "University Campus",
+      "x": 60,
+      "y": 10
+    }
+  ]
+}

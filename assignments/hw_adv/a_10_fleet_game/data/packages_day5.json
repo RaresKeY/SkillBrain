@@ -1,0 +1,22 @@
+{
+  "day": 5,
+  "comment": "Day 5 - PEAK: ~52m³ total - Professional operations!",
+  "packages": [
+    {"id": "pkg_052", "destination": {"x": 24, "y": 34}, "volume_m3": 3.5, "payment": 68, "priority": 2},
+    {"id": "pkg_053", "destination": {"x": 46, "y": 66}, "volume_m3": 4.5, "payment": 82, "priority": 2},
+    {"id": "pkg_054", "destination": {"x": 74, "y": 26}, "volume_m3": 3.0, "payment": 58, "priority": 1},
+    {"id": "pkg_055", "destination": {"x": 36, "y": 76}, "volume_m3": 6.0, "payment": 105, "priority": 3},
+    {"id": "pkg_056", "destination": {"x": 56, "y": 44}, "volume_m3": 2.8, "payment": 54, "priority": 1},
+    {"id": "pkg_057", "destination": {"x": 16, "y": 68}, "volume_m3": 4.0, "payment": 72, "priority": 2},
+    {"id": "pkg_058", "destination": {"x": 84, "y": 52}, "volume_m3": 3.8, "payment": 70, "priority": 2},
+    {"id": "pkg_059", "destination": {"x": 54, "y": 16}, "volume_m3": 3.2, "payment": 62, "priority": 1},
+    {"id": "pkg_060", "destination": {"x": 26, "y": 46}, "volume_m3": 2.5, "payment": 48, "priority": 1},
+    {"id": "pkg_061", "destination": {"x": 66, "y": 74}, "volume_m3": 4.8, "payment": 88, "priority": 2},
+    {"id": "pkg_062", "destination": {"x": 44, "y": 28}, "volume_m3": 3.0, "payment": 58, "priority": 1},
+    {"id": "pkg_063", "destination": {"x": 72, "y": 56}, "volume_m3": 3.5, "payment": 65, "priority": 1},
+    {"id": "pkg_064", "destination": {"x": 34, "y": 18}, "volume_m3": 2.0, "payment": 42, "priority": 1},
+    {"id": "pkg_065", "destination": {"x": 82, "y": 36}, "volume_m3": 2.2, "payment": 45, "priority": 1},
+    {"id": "pkg_066", "destination": {"x": 64, "y": 84}, "volume_m3": 2.5, "payment": 50, "priority": 1},
+    {"id": "pkg_067", "destination": {"x": 50, "y": 50}, "volume_m3": 1.7, "payment": 38, "priority": 1}
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "day": 1,
+  "comment": "Day 1 - EASY TUTORIAL: ~24m³ total (70% of 35m³ starting capacity)",
+  "packages": [
+    {
+      "id": "pkg_001",
+      "destination": {"x": 20, "y": 30},
+      "volume_m3": 2.2,
+      "payment": 45,
+      "priority": 1,
+      "description": "Small electronics"
+    },
+    {
+      "id": "pkg_002",
+      "destination": {"x": 45, "y": 60},
+      "volume_m3": 3.5,
+      "payment": 65,
+      "priority": 1,
+      "description": "Office supplies"
+    },
+    {
+      "id": "pkg_003",
+      "destination": {"x": 70, "y": 20},
+      "volume_m3": 2.0,
+      "payment": 42,
+      "priority": 1,
+      "description": "Books"
+    },
+    {
+      "id": "pkg_004",
+      "destination": {"x": 35, "y": 85},
+      "volume_m3": 4.0,
+      "payment": 75,
+      "priority": 2,
+      "description": "Small furniture"
+    },
+    {
+      "id": "pkg_005",
+      "destination": {"x": 55, "y": 40},
+      "volume_m3": 1.5,
+      "payment": 32,
+      "priority": 1,
+      "description": "Documents"
+    },
+    {
+      "id": "pkg_006",
+      "destination": {"x": 15, "y": 75},
+      "volume_m3": 3.2,
+      "payment": 58,
+      "priority": 1,
+      "description": "Kitchenware"
+    },
+    {
+      "id": "pkg_007",
+      "destination": {"x": 80, "y": 55},
+      "volume_m3": 2.8,
+      "payment": 52,
+      "priority": 1,
+      "description": "Computer parts"
+    },
+    {
+      "id": "pkg_008",
+      "destination": {"x": 60, "y": 10},
+      "volume_m3": 1.8,
+      "payment": 38,
+      "priority": 1,
+      "description": "Clothing"
+    },
+    {
+      "id": "pkg_009",
+      "destination": {"x": 25, "y": 40},
+      "volume_m3": 2.5,
+      "payment": 48,
+      "priority": 1,
+      "description": "Toys"
+    },
+    {
+      "id": "pkg_010",
+      "destination": {"x": 50, "y": 70},
+      "volume_m3": 1.5,
+      "payment": 35,
+      "priority": 1,
+      "description": "Household items"
+    }
+  ]
+}

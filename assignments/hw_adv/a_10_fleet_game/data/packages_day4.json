@@ -1,0 +1,21 @@
+{
+  "day": 4,
+  "comment": "Day 4 - BUSY: ~46m³ total - Need good fleet!",
+  "packages": [
+    {"id": "pkg_037", "destination": {"x": 22, "y": 32}, "volume_m3": 3.2, "payment": 62, "priority": 1},
+    {"id": "pkg_038", "destination": {"x": 48, "y": 68}, "volume_m3": 4.0, "payment": 75, "priority": 2},
+    {"id": "pkg_039", "destination": {"x": 72, "y": 28}, "volume_m3": 2.8, "payment": 55, "priority": 1},
+    {"id": "pkg_040", "destination": {"x": 38, "y": 78}, "volume_m3": 5.5, "payment": 98, "priority": 3},
+    {"id": "pkg_041", "destination": {"x": 58, "y": 42}, "volume_m3": 2.5, "payment": 48, "priority": 1},
+    {"id": "pkg_042", "destination": {"x": 18, "y": 65}, "volume_m3": 3.8, "payment": 68, "priority": 2},
+    {"id": "pkg_043", "destination": {"x": 82, "y": 55}, "volume_m3": 3.5, "payment": 65, "priority": 1},
+    {"id": "pkg_044", "destination": {"x": 52, "y": 18}, "volume_m3": 3.0, "payment": 58, "priority": 1},
+    {"id": "pkg_045", "destination": {"x": 28, "y": 48}, "volume_m3": 2.2, "payment": 45, "priority": 1},
+    {"id": "pkg_046", "destination": {"x": 68, "y": 72}, "volume_m3": 4.2, "payment": 78, "priority": 2},
+    {"id": "pkg_047", "destination": {"x": 42, "y": 25}, "volume_m3": 2.8, "payment": 52, "priority": 1},
+    {"id": "pkg_048", "destination": {"x": 75, "y": 58}, "volume_m3": 3.0, "payment": 58, "priority": 1},
+    {"id": "pkg_049", "destination": {"x": 32, "y": 15}, "volume_m3": 1.8, "payment": 38, "priority": 1},
+    {"id": "pkg_050", "destination": {"x": 85, "y": 38}, "volume_m3": 1.7, "payment": 36, "priority": 1},
+    {"id": "pkg_051", "destination": {"x": 62, "y": 82}, "volume_m3": 2.0, "payment": 42, "priority": 1}
+  ]
+}

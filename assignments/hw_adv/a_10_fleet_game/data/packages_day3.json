@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "comment": "Day 3 - CHALLENGING: ~40m³ total (115% of starting capacity) - TIME TO EXPAND!",
+  "packages": [
+    {"id": "pkg_023", "destination": {"x": 25, "y": 35}, "volume_m3": 3.0, "payment": 58, "priority": 1, "description": "Computer monitors"},
+    {"id": "pkg_024", "destination": {"x": 50, "y": 65}, "volume_m3": 3.8, "payment": 72, "priority": 2, "description": "Office chairs"},
+    {"id": "pkg_025", "destination": {"x": 75, "y": 25}, "volume_m3": 2.5, "payment": 50, "priority": 1, "description": "Sports equipment"},
+    {"id": "pkg_026", "destination": {"x": 40, "y": 80}, "volume_m3": 5.0, "payment": 92, "priority": 3, "description": "Large appliance"},
+    {"id": "pkg_027", "destination": {"x": 60, "y": 45}, "volume_m3": 2.2, "payment": 44, "priority": 1, "description": "Art supplies"},
+    {"id": "pkg_028", "destination": {"x": 20, "y": 70}, "volume_m3": 3.5, "payment": 65, "priority": 2, "description": "Kitchen appliances"},
+    {"id": "pkg_029", "destination": {"x": 85, "y": 50}, "volume_m3": 3.2, "payment": 62, "priority": 1, "description": "Electronics bundle"},
+    {"id": "pkg_030", "destination": {"x": 55, "y": 15}, "volume_m3": 2.8, "payment": 54, "priority": 1, "description": "Fashion items"},
+    {"id": "pkg_031", "destination": {"x": 30, "y": 50}, "volume_m3": 2.0, "payment": 42, "priority": 1, "description": "Toys and games"},
+    {"id": "pkg_032", "destination": {"x": 65, "y": 75}, "volume_m3": 3.8, "payment": 70, "priority": 2, "description": "Home furniture"},
+    {"id": "pkg_033", "destination": {"x": 45, "y": 30}, "volume_m3": 2.5, "payment": 48, "priority": 1, "description": "Pet supplies"},
+    {"id": "pkg_034", "destination": {"x": 70, "y": 60}, "volume_m3": 2.7, "payment": 52, "priority": 1, "description": "Gardening tools"},
+    {"id": "pkg_035", "destination": {"x": 35, "y": 20}, "volume_m3": 1.5, "payment": 35, "priority": 1, "description": "Craft materials"},
+    {"id": "pkg_036", "destination": {"x": 80, "y": 40}, "volume_m3": 1.5, "payment": 36, "priority": 1, "description": "Musical instruments"}
+  ]
+}

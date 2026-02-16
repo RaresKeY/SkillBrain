@@ -1,0 +1,19 @@
+{
+  "current_day": 1,
+  "balance": 100000,
+  "fleet": [
+    {
+      "id": "veh_001",
+      "type": "small_van",
+      "purchase_day": 0,
+      "current_location": {"x": 0, "y": 0}
+    },
+    {
+      "id": "veh_002",
+      "type": "medium_truck",
+      "purchase_day": 0,
+      "current_location": {"x": 0, "y": 0}
+    }
+  ],
+  "history": []
+}

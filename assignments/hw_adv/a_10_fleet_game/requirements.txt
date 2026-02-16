@@ -1,0 +1,7 @@
+# Core game + full agent/UI stack
+pygame>=2.6.0
+pillow>=10.0.0
+numpy>=1.26.0
+
+# Tests
+pytest>=8.0.0
