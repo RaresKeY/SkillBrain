@@ -143,11 +143,9 @@ A guided seaborn curriculum with progressive exercises and dataset exploration.
     <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex3_penguins_heatmap.png" alt="a_20_21 exercise 3 heatmap" width="460"></td>
     <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex4_violin_salary_experience.png" alt="a_20_21 exercise 4 violinplot" width="460"></td>
   </tr>
-  <tr>
-    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex5_facetgrid_department_sex.png" alt="a_20_21 exercise 5 facetgrid" width="460"></td>
-    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex6_barplot_agegroup_salary.png" alt="a_20_21 exercise 6 barplot" width="460"></td>
-  </tr>
 </table>
+
+![a_20_21 exercise 5 facetgrid](assignments/hw_adv/a_20_21_seaborn/export/ex5_facetgrid_department_sex.png)
 
 ### `a_22_plotly`
 Interactive/animated Plotly exercises with shareable HTML outputs and configuration experiments.
