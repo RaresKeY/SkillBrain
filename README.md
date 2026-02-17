@@ -169,6 +169,9 @@ Operational-style surveillance system with motion/smoke alerts, event logging, a
 ### `a_29_face_recognition`
 A larger surveillance architecture with configurable CLI run mode, GUI control panel, event logging, and recognition workflow.
 
+![a_29 face recognition preview](assignments/hw_adv/a_29_face_recognition/export/a_29_face_registry_preview.svg)
+![a_29 surveillance ui screenshot](assignments/hw_adv/a_29_face_recognition/ui_surveillance.png)
+
 ### `a_30_sklearn`
 End-to-end facial-expression ML pipeline from data generation and labeling through features, training, and realtime inference tools.
 
