@@ -172,8 +172,13 @@ A larger surveillance architecture with configurable CLI run mode, GUI control p
 ![a_29 face recognition preview](assignments/hw_adv/a_29_face_recognition/export/a_29_face_registry_preview.svg)
 ![a_29 surveillance ui screenshot](assignments/hw_adv/a_29_face_recognition/ui_surveillance.png)
 
-### `a_30_sklearn`
+### `a_30_facial_expression_pipeline`
 End-to-end facial-expression ML pipeline from data generation and labeling through features, training, and realtime inference tools.
+
+| | |
+|---|---|
+| ![a_30 landmark normalization preview](assignments/hw_adv/a_30_facial_expression_pipeline/landmark_norm_preview.png) | ![a_30 prediction sample 01](assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_01_male_middle_african_neutral_average.png) |
+| ![a_30 prediction sample 02](assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_02_female_elderly_asian_sad_average.png) | ![a_30 prediction sample 03](assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_03_male_young_indian_happy_average.png) |
 
 ### `a_31_iris_classification`
 Classic sklearn baseline project comparing SVM and Random Forest with saved models.
@@ -181,7 +186,7 @@ Classic sklearn baseline project comparing SVM and Random Forest with saved mode
 ### `a_32_advanced_regression`
 Structured regression benchmark for real-estate prices with preprocessing pipelines and model diagnostics.
 
-![a_32 model comparison](assignments/hw_adv/a_32_advanced_regression/models_comparison_clean.png)
+![a_32 model comparison dark](assignments/hw_adv/a_32_advanced_regression/models_comparison_clean.png)
 
 ### `a_33_algorithmic`
 Contrasts hardcoded domain rules with machine learning on a medical classification dataset.
@@ -205,7 +210,7 @@ TensorFlow-based iris pipeline with configurable hyperparameters, early stopping
 ### `a_37_cnn_fashion`
 Fashion-MNIST CNN workflow including training, evaluation graphics, and error analysis visuals.
 
-![a_37 confusion matrix](assignments/hw_adv/a_37_cnn_fashion/fashion_cnn_visuals/confusion_matrix.png)
+![a_37 confusion matrix dark](assignments/hw_adv/a_37_cnn_fashion/fashion_cnn_visuals/confusion_matrix.png)
 
 ### `a_39_40_yolo_on_feed`
 Live-stream YOLO detection app with PySide6 UI controls, model selection, and periodic detection snapshots.
@@ -239,7 +244,7 @@ Live-stream YOLO detection app with PySide6 UI controls, model selection, and pe
 | `a_28_oos_computer_vision` | experimental CV stack: fire/smoke detection, DeepFace verification, YOLO person/face detection | `fire_detect/*.py`, `match_face/*.py`, `person_detect/*.py` |
 | `a_28_opencv` | OpenCV surveillance + smoke detection system with logging, snapshots, and warmup exercises | `opencv_surveillance_project/surveillance_system.py` |
 | `a_29_face_recognition` | modular surveillance platform (CLI + PySide6 control center) with YOLO integration and registry | `surveillance_core.py`, `surveillance_app.py`, `control_center_pyside6.py` |
-| `a_30_sklearn` | facial-expression pipeline: synthetic image generation, landmarks extraction, model training, realtime inference | `README.md`, `extract_landmarks.py`, `train_model*.py`, `realtime_emotion_detection.py` |
+| `a_30_facial_expression_pipeline` | facial-expression pipeline: synthetic image generation, landmarks extraction, model training, realtime inference | `README.md`, `extract_landmarks.py`, `train_model*.py`, `realtime_emotion_detection.py` |
 | `a_31_iris_classification` | classical ML iris benchmark (SVM + Random Forest), evaluation, model serialization | `train_iris.py`, `evaluate_and_visualize.py` |
 | `a_32_advanced_regression` | real-estate regression benchmark with preprocessing pipelines, model comparison, diagnostics | `train_models.py`, `run_full_analysis.py`, `IMPROVING_TRAINING.md` |
 | `a_33_algorithmic` | rule-based medical classifier versus Random Forest comparison on breast cancer data | `breast_cancer_algorithmic_vs_ml.py` |

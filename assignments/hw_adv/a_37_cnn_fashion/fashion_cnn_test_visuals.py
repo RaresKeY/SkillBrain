@@ -26,6 +26,22 @@ CLASS_NAMES = [
     "Ankle boot",
 ]
 
+DARK_FIG_BG = "#0f1b34"
+DARK_PANEL_BG = "#111f38"
+DARK_TEXT_MAIN = "#dbe7f5"
+DARK_TEXT_SUB = "#b8c6dd"
+DARK_GRID = "#365074"
+DARK_CYAN = "#22d3ee"
+DARK_GREEN = "#34d399"
+DARK_RED = "#fb7185"
+
+
+def _apply_dark_axes(ax: plt.Axes) -> None:
+    ax.set_facecolor(DARK_PANEL_BG)
+    ax.tick_params(colors=DARK_TEXT_SUB)
+    for spine in ax.spines.values():
+        spine.set_color("#4a6387")
+
 
 def configure_hardware_acceleration() -> None:
     """Configure GPU usage for inference/evaluation."""
@@ -64,12 +80,16 @@ def ensure_visuals_dir() -> None:
 def plot_confusion_matrix(cm: np.ndarray, out_path: str) -> None:
     """Save confusion matrix heatmap."""
     fig, ax = plt.subplots(figsize=(10, 8))
+    fig.patch.set_facecolor(DARK_FIG_BG)
+    _apply_dark_axes(ax)
     im = ax.imshow(cm, cmap="Blues")
-    fig.colorbar(im, ax=ax)
+    cbar = fig.colorbar(im, ax=ax)
+    cbar.ax.yaxis.set_tick_params(color=DARK_TEXT_SUB)
+    plt.setp(cbar.ax.get_yticklabels(), color=DARK_TEXT_SUB)
 
-    ax.set_title("Fashion-MNIST Confusion Matrix")
-    ax.set_xlabel("Predicted Label")
-    ax.set_ylabel("True Label")
+    ax.set_title("Fashion-MNIST Confusion Matrix", color=DARK_TEXT_MAIN, fontweight="bold")
+    ax.set_xlabel("Predicted Label", color=DARK_TEXT_SUB)
+    ax.set_ylabel("True Label", color=DARK_TEXT_SUB)
     ax.set_xticks(range(len(CLASS_NAMES)))
     ax.set_yticks(range(len(CLASS_NAMES)))
     ax.set_xticklabels(CLASS_NAMES, rotation=45, ha="right")
@@ -82,7 +102,7 @@ def plot_confusion_matrix(cm: np.ndarray, out_path: str) -> None:
             ax.text(j, i, str(cm[i, j]), ha="center", va="center", color=color, fontsize=8)
 
     fig.tight_layout()
-    fig.savefig(out_path, dpi=180)
+    fig.savefig(out_path, dpi=220, bbox_inches="tight", facecolor=DARK_FIG_BG)
     plt.close(fig)
 
 
@@ -99,10 +119,12 @@ def plot_misclassified_examples(
 
     if wrong_idx.size == 0:
         fig, ax = plt.subplots(figsize=(8, 2))
+        fig.patch.set_facecolor(DARK_FIG_BG)
+        _apply_dark_axes(ax)
         ax.axis("off")
-        ax.set_title("No misclassified samples in test set")
+        ax.set_title("No misclassified samples in test set", color=DARK_TEXT_MAIN, fontweight="bold")
         fig.tight_layout()
-        fig.savefig(out_path, dpi=180)
+        fig.savefig(out_path, dpi=220, bbox_inches="tight", facecolor=DARK_FIG_BG)
         plt.close(fig)
         return
 
@@ -111,22 +133,30 @@ def plot_misclassified_examples(
     rows = int(np.ceil(len(shown_idx) / cols))
 
     fig, axes = plt.subplots(rows, cols, figsize=(14, 3.2 * rows))
+    fig.patch.set_facecolor(DARK_FIG_BG)
     axes = np.array(axes).reshape(-1)
 
     for plot_i, sample_i in enumerate(shown_idx):
         ax = axes[plot_i]
+        _apply_dark_axes(ax)
         ax.imshow(x_test[sample_i].squeeze(), cmap="gray")
         true_name = CLASS_NAMES[y_test[sample_i]]
         pred_name = CLASS_NAMES[y_pred[sample_i]]
         conf = float(np.max(y_prob[sample_i]))
-        ax.set_title(f"T: {true_name}\nP: {pred_name} ({conf:.2f})", fontsize=9)
+        ax.set_title(
+            f"T: {true_name}\nP: {pred_name} ({conf:.2f})",
+            fontsize=9,
+            color=DARK_RED,
+            fontweight="bold",
+        )
         ax.axis("off")
 
     for ax in axes[len(shown_idx) :]:
+        _apply_dark_axes(ax)
         ax.axis("off")
 
     fig.tight_layout()
-    fig.savefig(out_path, dpi=180)
+    fig.savefig(out_path, dpi=220, bbox_inches="tight", facecolor=DARK_FIG_BG)
     plt.close(fig)
 
 
@@ -143,22 +173,25 @@ def plot_prediction_samples(
     rows = int(np.ceil(num_samples / cols))
 
     fig, axes = plt.subplots(rows, cols, figsize=(14, 3.2 * rows))
+    fig.patch.set_facecolor(DARK_FIG_BG)
     axes = np.array(axes).reshape(-1)
 
     for i in range(num_samples):
         ax = axes[i]
+        _apply_dark_axes(ax)
         ax.imshow(x_test[i].squeeze(), cmap="gray")
         true_name = CLASS_NAMES[y_test[i]]
         pred_name = CLASS_NAMES[y_pred[i]]
-        color = "green" if y_test[i] == y_pred[i] else "red"
-        ax.set_title(f"T: {true_name}\nP: {pred_name}", color=color, fontsize=9)
+        color = DARK_GREEN if y_test[i] == y_pred[i] else DARK_RED
+        ax.set_title(f"T: {true_name}\nP: {pred_name}", color=color, fontsize=9, fontweight="bold")
         ax.axis("off")
 
     for ax in axes[num_samples:]:
+        _apply_dark_axes(ax)
         ax.axis("off")
 
     fig.tight_layout()
-    fig.savefig(out_path, dpi=180)
+    fig.savefig(out_path, dpi=220, bbox_inches="tight", facecolor=DARK_FIG_BG)
     plt.close(fig)
 
 
@@ -178,23 +211,31 @@ def plot_assorted_test_samples(
     rows = int(np.ceil(num_samples / cols))
 
     fig, axes = plt.subplots(rows, cols, figsize=(14, 3.2 * rows))
+    fig.patch.set_facecolor(DARK_FIG_BG)
     axes = np.array(axes).reshape(-1)
 
     for plot_i, sample_i in enumerate(sampled_idx):
         ax = axes[plot_i]
+        _apply_dark_axes(ax)
         ax.imshow(x_test[sample_i].squeeze(), cmap="gray")
         true_name = CLASS_NAMES[y_test[sample_i]]
         pred_name = CLASS_NAMES[y_pred[sample_i]]
         conf = float(np.max(y_prob[sample_i]))
-        color = "green" if y_test[sample_i] == y_pred[sample_i] else "red"
-        ax.set_title(f"T: {true_name}\nP: {pred_name} ({conf:.2f})", color=color, fontsize=9)
+        color = DARK_GREEN if y_test[sample_i] == y_pred[sample_i] else DARK_RED
+        ax.set_title(
+            f"T: {true_name}\nP: {pred_name} ({conf:.2f})",
+            color=color,
+            fontsize=9,
+            fontweight="bold",
+        )
         ax.axis("off")
 
     for ax in axes[num_samples:]:
+        _apply_dark_axes(ax)
         ax.axis("off")
 
     fig.tight_layout()
-    fig.savefig(out_path, dpi=180)
+    fig.savefig(out_path, dpi=220, bbox_inches="tight", facecolor=DARK_FIG_BG)
     plt.close(fig)
 
 

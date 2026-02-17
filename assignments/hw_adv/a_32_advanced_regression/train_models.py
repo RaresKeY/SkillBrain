@@ -124,39 +124,64 @@ def evaluate_model(model, X_train, X_test, y_train, y_test, name, results_list):
 
 def save_plot(df, output_dir):
     """Generates and saves the comparison plot."""
+    fig_bg = "#0f1b34"
+    panel_bg = "#111f38"
+    text_main = "#dbe7f5"
+    text_sub = "#b8c6dd"
+    grid_c = "#365074"
+    train_c = "#38bdf8"
+    test_c = "#fb7185"
+    rmse_colors = ["#38bdf8", "#22d3ee", "#34d399"]
+
     fig, axes = plt.subplots(1, 2, figsize=(15, 6))
+    fig.patch.set_facecolor(fig_bg)
+    for ax in axes:
+        ax.set_facecolor(panel_bg)
+        ax.tick_params(colors=text_sub)
+        for spine in ax.spines.values():
+            spine.set_color("#4a6387")
+        ax.grid(axis='y', alpha=0.35, color=grid_c)
 
     # Plot 1: R2 Scores
     x = np.arange(len(df))
     width = 0.35
-    rects1 = axes[0].bar(x - width/2, df['R2 Train'], width, label='Train', color='lightblue', edgecolor='black')
-    rects2 = axes[0].bar(x + width/2, df['R2 Test'], width, label='Test', color='coral', edgecolor='black')
+    rects1 = axes[0].bar(x - width/2, df['R2 Train'], width, label='Train', color=train_c, edgecolor="#9dd7ff")
+    rects2 = axes[0].bar(x + width/2, df['R2 Test'], width, label='Test', color=test_c, edgecolor="#ffb3c1")
     axes[0].set_xticks(x)
     axes[0].set_xticklabels(df['Model'], rotation=15, ha='right')
-    axes[0].set_title('R² Score Comparison')
+    axes[0].set_title('R² Score Comparison', color=text_main, fontsize=14, fontweight='bold')
     axes[0].set_ylim(0, 1.1)
-    axes[0].legend()
-    axes[0].grid(axis='y', alpha=0.3)
-    
-    axes[0].bar_label(rects1, padding=3, fmt='%.2f')
-    axes[0].bar_label(rects2, padding=3, fmt='%.2f')
+    legend = axes[0].legend(facecolor=panel_bg, edgecolor="#4a6387")
+    for txt in legend.get_texts():
+        txt.set_color(text_main)
+
+    axes[0].bar_label(rects1, padding=3, fmt='%.2f', color=text_main, fontsize=10)
+    axes[0].bar_label(rects2, padding=3, fmt='%.2f', color=text_main, fontsize=10)
 
     # Plot 2: RMSE
-    axes[1].bar(df['Model'], df['RMSE'], color=['lightblue', 'lightgreen', 'coral'], edgecolor='black')
+    bars_rmse = axes[1].bar(df['Model'], df['RMSE'], color=rmse_colors, edgecolor="#9dd7ff")
     axes[1].set_xticks(range(len(df['Model'])))
     axes[1].set_xticklabels(df['Model'], rotation=15, ha='right')
-    axes[1].set_title('RMSE Comparison (Lower is Better)')
-    axes[1].grid(axis='y', alpha=0.3)
+    axes[1].set_title('RMSE Comparison (Lower is Better)', color=text_main, fontsize=14, fontweight='bold')
     
     axes[1].set_ylim(0, df['RMSE'].max() * 1.1)
     
     # Add labels
-    for i, v in enumerate(df['RMSE']):
-        axes[1].text(i, v, f'{v:,.0f}€', ha='center', va='bottom', fontweight='bold')
+    for i, (bar, v) in enumerate(zip(bars_rmse, df['RMSE'])):
+        axes[1].text(
+            bar.get_x() + bar.get_width() / 2,
+            v,
+            f'{v:,.0f}€',
+            ha='center',
+            va='bottom',
+            fontweight='bold',
+            color=text_main,
+            fontsize=10
+        )
 
     plt.tight_layout()
     output_path = os.path.join(output_dir, 'models_comparison_clean.png')
-    plt.savefig(output_path)
+    plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor=fig_bg)
     print(f"\n✅ Plot saved to: {output_path}")
 
 if __name__ == "__main__":
