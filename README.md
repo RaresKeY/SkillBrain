@@ -199,6 +199,8 @@ Performs text token frequency analysis and renders a stylized word cloud artifac
 ### `a_35_0_spam_ham`
 NLP classification project spanning baseline vectorizers, static embeddings, and automated model comparison reports.
 
+![a_35 spam ham report preview](assignments/hw_adv/a_35_0_spam_ham/export/a_35_spam_ham_report_preview.svg)
+
 ### `a_35_1_mnist`
 MNIST training plus an interactive digit-drawing recognizer with interpretability visualizations.
 
