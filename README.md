@@ -134,12 +134,20 @@ Advanced plotting assignment with confidence intervals, heatmaps, and styled das
 ### `a_20_21_seaborn`
 A guided seaborn curriculum with progressive exercises and dataset exploration.
 
-![a_20_21 exercise 1 histogram](assignments/hw_adv/a_20_21_seaborn/export/ex1_histogram_titanic.png)
-![a_20_21 exercise 2 pairplot](assignments/hw_adv/a_20_21_seaborn/export/ex2_pairplot_iris.png)
-![a_20_21 exercise 3 heatmap](assignments/hw_adv/a_20_21_seaborn/export/ex3_penguins_heatmap.png)
-![a_20_21 exercise 4 violinplot](assignments/hw_adv/a_20_21_seaborn/export/ex4_violin_salary_experience.png)
-![a_20_21 exercise 5 facetgrid](assignments/hw_adv/a_20_21_seaborn/export/ex5_facetgrid_department_sex.png)
-![a_20_21 exercise 6 barplot](assignments/hw_adv/a_20_21_seaborn/export/ex6_barplot_agegroup_salary.png)
+<table>
+  <tr>
+    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex1_histogram_titanic.png" alt="a_20_21 exercise 1 histogram" width="460"></td>
+    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex2_pairplot_iris.png" alt="a_20_21 exercise 2 pairplot" width="460"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex3_penguins_heatmap.png" alt="a_20_21 exercise 3 heatmap" width="460"></td>
+    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex4_violin_salary_experience.png" alt="a_20_21 exercise 4 violinplot" width="460"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex5_facetgrid_department_sex.png" alt="a_20_21 exercise 5 facetgrid" width="460"></td>
+    <td align="center"><img src="assignments/hw_adv/a_20_21_seaborn/export/ex6_barplot_agegroup_salary.png" alt="a_20_21 exercise 6 barplot" width="460"></td>
+  </tr>
+</table>
 
 ### `a_22_plotly`
 Interactive/animated Plotly exercises with shareable HTML outputs and configuration experiments.
@@ -151,7 +159,7 @@ Selected lightweight exports:
 - [`ex4_random_heatmap.html` (~9 KB)](assignments/hw_adv/a_22_plotly/export/ex4_random_heatmap.html)
 - [`challenge2_animated_scatter.html` (~25 KB)](assignments/hw_adv/a_22_plotly/export/challenge2_animated_scatter.html)
 
-Skipped in README due size:
+Skipped in README due to size:
 - `ex5_scatter_share_full.html` (~4.7 MB)
 
 ### `a_23_basic_dashboard`
