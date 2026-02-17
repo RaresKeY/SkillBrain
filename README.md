@@ -211,6 +211,7 @@ TensorFlow-based iris pipeline with configurable hyperparameters, early stopping
 Fashion-MNIST CNN workflow including training, evaluation graphics, and error analysis visuals.
 
 ![a_37 confusion matrix dark](assignments/hw_adv/a_37_cnn_fashion/fashion_cnn_visuals/confusion_matrix.png)
+![a_37 assorted test samples dark](assignments/hw_adv/a_37_cnn_fashion/fashion_cnn_visuals/assorted_test_samples.png)
 
 ### `a_39_40_yolo_on_feed`
 Live-stream YOLO detection app with PySide6 UI controls, model selection, and periodic detection snapshots.
