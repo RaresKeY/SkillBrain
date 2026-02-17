@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="640" viewBox="0 0 1160 640" role="img" aria-labelledby="title desc">
+  <title id="title">a_24_advanced_analytics preview</title>
+  <desc id="desc">Preview card for the advanced analytics Streamlit app.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121b2f"/>
+      <stop offset="100%" stop-color="#0a1326"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(24,24)">
+    <rect width="1112" height="592" rx="26" fill="url(#surface)" stroke="#06b6d4" stroke-opacity="0.45" stroke-width="2"/>
+
+    <rect x="28" y="24" width="1056" height="44" rx="12" fill="#0e1a30"/>
+    <circle cx="54" cy="46" r="6" fill="#ef4444"/>
+    <circle cx="76" cy="46" r="6" fill="#f59e0b"/>
+    <circle cx="98" cy="46" r="6" fill="#22c55e"/>
+    <rect x="130" y="32" width="520" height="28" rx="8" fill="#173154"/>
+
+    <text x="48" y="130" fill="#67e8f9" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="28" font-weight="700">a_24_advanced_analytics</text>
+    <text x="48" y="180" fill="#e2e8f0" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="38" font-weight="700">Advanced Interactive</text>
+    <text x="48" y="222" fill="#e2e8f0" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="38" font-weight="700">Analytics</text>
+    <text x="48" y="262" fill="#cbd5e1" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="24">Scatter, correlations, grouped metrics, and filters.</text>
+
+    <rect x="48" y="292" width="350" height="62" rx="12" fill="#0891b2"/>
+    <text x="80" y="332" fill="#ffffff" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="27" font-weight="700">Open Live App</text>
+
+    <g transform="translate(640,122)">
+      <rect width="418" height="382" rx="18" fill="#0b162b" stroke="#334155" stroke-width="2"/>
+
+      <rect x="24" y="20" width="150" height="16" rx="8" fill="#334155"/>
+      <rect x="24" y="48" width="370" height="12" rx="6" fill="#223452"/>
+
+      <rect x="24" y="84" width="370" height="136" rx="12" fill="#0f2039"/>
+      <polyline points="38,188 84,148 126,170 172,126 216,140 262,104 304,118 380,94" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <rect x="24" y="236" width="176" height="126" rx="12" fill="#111f38"/>
+      <rect x="38" y="254" width="26" height="88" rx="6" fill="#22d3ee" fill-opacity="0.50"/>
+      <rect x="72" y="270" width="26" height="72" rx="6" fill="#22d3ee" fill-opacity="0.70"/>
+      <rect x="106" y="242" width="26" height="100" rx="6" fill="#22d3ee" fill-opacity="0.35"/>
+      <rect x="140" y="264" width="26" height="78" rx="6" fill="#22d3ee" fill-opacity="0.85"/>
+
+      <rect x="218" y="236" width="176" height="126" rx="12" fill="#111f38"/>
+      <rect x="234" y="252" width="144" height="12" rx="6" fill="#3f5f8a"/>
+      <rect x="234" y="274" width="122" height="12" rx="6" fill="#3f5f8a"/>
+      <rect x="234" y="296" width="134" height="12" rx="6" fill="#3f5f8a"/>
+      <rect x="234" y="318" width="98" height="12" rx="6" fill="#3f5f8a"/>
+    </g>
+
+    <text x="48" y="550" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">https://advanced-analytics.streamlit.app/</text>
+  </g>
+</svg>

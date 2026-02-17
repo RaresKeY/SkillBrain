@@ -160,12 +160,16 @@ Live app: [basic-dashboard-c.streamlit.app](https://basic-dashboard-c.streamlit.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://basic-dashboard-c.streamlit.app/?embed=true)
 
+[![a_23 basic dashboard preview](assets/previews/a_23_basic_dashboard_preview.svg)](https://basic-dashboard-c.streamlit.app/?embed=true)
+
 ### `a_24_advanced_analytics`
 Adds interactive analytics controls, correlation exploration, and grouped aggregation views.
 
 Live app: [advanced-analytics.streamlit.app](https://advanced-analytics.streamlit.app/)
 
-[![a_24 advanced analytics preview](https://image.thum.io/get/width/1200/noanimate/https://advanced-analytics.streamlit.app/)](https://advanced-analytics.streamlit.app/?embed=true)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://advanced-analytics.streamlit.app/?embed=true)
+
+[![a_24 advanced analytics preview](assets/previews/a_24_advanced_analytics_preview.svg)](https://advanced-analytics.streamlit.app/?embed=true)
 
 ### `a_25_professional_dashboard`
 Moves to a professional dashboard style with sidebar controls and management-oriented summaries.
