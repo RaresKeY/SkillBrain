@@ -1,9 +1,9 @@
 [
   {
-    "filename": "testpos04.820.avi",
+    "filename": "testpos01.817.avi",
     "has_detection": true,
     "model": "fire_best.pt",
-    "path": "dataset/fire_dataset/smoke_videos.1407/pos/testpos04.820.avi",
-    "detection_count": 59
+    "path": "dataset/smoke_videos.1407/pos/testpos01.817.avi",
+    "detection_count": 115
   }
 ]

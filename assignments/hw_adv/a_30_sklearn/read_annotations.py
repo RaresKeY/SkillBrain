@@ -3,11 +3,24 @@ from pathlib import Path
 import json
 import cv2
 
-folder_path = Path("/media/mintmainog/c21d735b-a894-4487-8dc4-b83f31f0a84c/people_datasets/EmoSet-118K/annotation")
+def _load_local_paths() -> dict:
+    here = Path(__file__).resolve()
+    for base in [here.parent, *here.parents]:
+        cfg = base / ".local_paths.json"
+        if cfg.exists():
+            try:
+                return json.loads(cfg.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                return {}
+    return {}
+
+
+_LOCAL_PATHS = _load_local_paths()
+folder_path = Path(_LOCAL_PATHS.get("emotions_annotation_folder", "data/annotations"))
 SCRIPT_FOLDER = Path(__file__).resolve().parent
 print(SCRIPT_FOLDER)
 
-files = file_generator(folder_path, ft.JSON, whitelist=["/media"])
+files = file_generator(folder_path, ft.JSON, whitelist=[str(folder_path)])
 face_detects_prelim = dict()
 
 for file in files:

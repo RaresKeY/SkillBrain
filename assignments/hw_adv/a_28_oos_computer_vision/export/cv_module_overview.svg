@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="560" viewBox="0 0 1160 560" role="img" aria-labelledby="title desc">
+  <title id="title">a_28_oos_computer_vision overview preview</title>
+  <desc id="desc">Overview card for fire/smoke detection, face verification, and person/face detection modules.</desc>
+  <defs>
+    <linearGradient id="panelBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1a31"/>
+      <stop offset="100%" stop-color="#091226"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.0"/>
+      <stop offset="16%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="84%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="1140" height="540" rx="24" fill="url(#panelBg)" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="36" y="34" width="1088" height="1.5" fill="url(#accentLine)"/>
+
+  <text x="58" y="82" fill="#67e8f9" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="40" font-weight="700">a_28_oos_computer_vision</text>
+  <text x="58" y="126" fill="#dbe7f5" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="56" font-weight="700">Computer Vision Sandbox</text>
+  <text x="58" y="170" fill="#b8c6dd" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="24">Fire/smoke detection, DeepFace matching, and person/face pipelines.</text>
+
+  <g transform="translate(58,204)">
+    <rect width="330" height="230" rx="16" fill="#112244"/>
+    <text x="22" y="44" fill="#fda4af" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="42" font-weight="700">fire_detect</text>
+    <rect x="22" y="64" width="286" height="12" rx="6" fill="#4d6e9f"/>
+    <rect x="22" y="86" width="246" height="12" rx="6" fill="#4d6e9f"/>
+    <rect x="22" y="126" width="286" height="86" rx="10" fill="#7f1d1d" fill-opacity="0.48"/>
+  </g>
+
+  <g transform="translate(414,204)">
+    <rect width="330" height="230" rx="16" fill="#112244"/>
+    <text x="22" y="44" fill="#93c5fd" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="42" font-weight="700">match_face</text>
+    <rect x="22" y="64" width="286" height="12" rx="6" fill="#4d6e9f"/>
+    <rect x="22" y="86" width="252" height="12" rx="6" fill="#4d6e9f"/>
+    <circle cx="102" cy="166" r="36" fill="#334a68"/>
+    <circle cx="228" cy="166" r="36" fill="#334a68"/>
+    <rect x="148" y="156" width="34" height="20" rx="10" fill="#22d3ee"/>
+  </g>
+
+  <g transform="translate(770,204)">
+    <rect width="330" height="230" rx="16" fill="#112244"/>
+    <text x="22" y="44" fill="#86efac" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="42" font-weight="700">person_detect</text>
+    <rect x="22" y="64" width="286" height="12" rx="6" fill="#4d6e9f"/>
+    <rect x="22" y="86" width="236" height="12" rx="6" fill="#4d6e9f"/>
+    <rect x="36" y="122" width="44" height="80" rx="10" fill="#22d3ee" fill-opacity="0.60"/>
+    <rect x="98" y="110" width="44" height="92" rx="10" fill="#22d3ee" fill-opacity="0.76"/>
+    <rect x="160" y="128" width="44" height="74" rx="10" fill="#22d3ee" fill-opacity="0.48"/>
+    <rect x="222" y="100" width="44" height="102" rx="10" fill="#22d3ee" fill-opacity="0.86"/>
+  </g>
+
+  <text x="58" y="508" fill="#67e8f9" fill-opacity="0.95" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">assignments/hw_adv/a_28_oos_computer_vision</text>
+</svg>

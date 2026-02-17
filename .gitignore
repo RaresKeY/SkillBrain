@@ -9,6 +9,7 @@ env/
 .env.dev
 .env.prod
 .env.example
+.local_paths.json
 
 # Untracked upstream
 /test_tema.txt

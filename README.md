@@ -57,7 +57,7 @@ Builds a quiz authoring + playing workflow with persisted JSON quiz banks and a 
 Combines sorting/search fundamentals with performance comparisons on larger synthetic workloads.
 
 ### `a_10_fleet_game`
-A full mini-project with package layout, game logic, route simulation, command-line run mode, pygame UI, and tests.
+Scope focused on extending an already built game by integrating new agent behavior. This assignment adds two agents, restructures the UI and gameplay flow, introduces autoplay mode, and simplifies controls for a smoother play loop.
 
 ![a_10 fleet game ui screenshot](assignments/hw_adv/a_10_fleet_game/export/ui_screenshot.png)
 ![a_10 agent r evolution](assignments/hw_adv/a_10_fleet_game/export/agent_r_100_day_evolution.png)
@@ -157,7 +157,11 @@ Live app: [db-integration.streamlit.app](https://db-integration.streamlit.app/)
 Notebook-based algorithm drills spanning arrays, strings, validation problems, and search patterns.
 
 ### `a_28_oos_computer_vision`
-Experimental CV sandbox combining detection pipelines for smoke/fire, face verification, and person/face camera detection.
+Experimental deepface sandbox combining detection pipelines for smoke/fire, face verification, and person/face camera detection.
+
+![a_28 face results preview](assignments/hw_adv/a_28_oos_computer_vision/export/cv_face_results_preview.png)
+![a_28 fire detection ui screenshot](assignments/hw_adv/a_28_oos_computer_vision/export/ui_screenshot_fire.png)
+![a_28 person detect preview](assignments/hw_adv/a_28_oos_computer_vision/export/person_detect.png)
 
 ### `a_28_opencv`
 Operational-style surveillance system with motion/smoke alerts, event logging, and image snapshot evidence.

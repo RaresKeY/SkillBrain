@@ -1,4 +1,5 @@
 import uuid, random, json, gzip, os, hashlib, re, base64, hmac
+from pathlib import Path
 from datetime import datetime, timezone
 
 # --- config ---
@@ -40,9 +41,23 @@ def verify_phone(number: str, hashed: str) -> bool:
 #     "kpop","music","cycling","hiking","swimming","movies","art"
 # ]
 
-import json
+def _load_local_paths() -> dict:
+    here = Path(__file__).resolve()
+    for base in [here.parent, *here.parents]:
+        cfg = base / ".local_paths.json"
+        if cfg.exists():
+            try:
+                return json.loads(cfg.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                return {}
+    return {}
 
-with open("/home/mintmainog/workspace/VS Code Workspaces/SkillBrain_Python_Homework_Fork/sessions/homework/hw_adv/tema_4/data/hobbies.json", "r", encoding="utf-8") as f:
+
+_LOCAL_PATHS = _load_local_paths()
+_DEFAULT_HOBBIES = Path(__file__).resolve().parents[2] / "data" / "hobbies.json"
+_HOBBIES_PATH = Path(_LOCAL_PATHS.get("friend_hobbies_json", str(_DEFAULT_HOBBIES)))
+
+with open(_HOBBIES_PATH, "r", encoding="utf-8") as f:
     HOBBIES_POOL = json.load(f)
 
 NAMES_FIRST = ["Paul","Bob","Alice","Eve","Carol","Dave","Tasman","John","Mary","Tom","Linda"]

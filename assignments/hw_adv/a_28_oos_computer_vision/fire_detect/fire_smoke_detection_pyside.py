@@ -7,6 +7,7 @@ import numpy as np
 import torch
 import json
 import copy
+from pathlib import Path
 
 from PySide6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                                QHBoxLayout, QLabel, QSlider, QProgressBar, 
@@ -17,17 +18,30 @@ from PySide6.QtGui import QImage, QPixmap, QFont, QPainter
 from ultralytics import YOLO
 
 # ---------------- CONFIGURATION ---------------- #
+def _load_local_paths() -> dict:
+    here = Path(__file__).resolve()
+    for base in [here.parent, *here.parents]:
+        cfg = base / ".local_paths.json"
+        if cfg.exists():
+            try:
+                return json.loads(cfg.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                return {}
+    return {}
+
+
+_LOCAL_PATHS = _load_local_paths()
+
 MODEL_PATHS = [
     'models/fire_best.pt',
     'models/firedetect-11s.pt',
     'models/firedetect-11x.pt',
     'models/yolov8s-forest-fire-detection.pt',
 ]
-VIDEO_SOURCES = [
-    "/media/mintmainog/c21d735b-a894-4487-8dc4-b83f31f0a84c/fire_dataset/smoke_videos.1407/pos",
-    # "dataset/smoke_detection_false_positives/fp_clouds_haze/false_positive",
-    # "dataset/smoke_detection_false_positives/fp_dust_particles/false_positive",
-]
+VIDEO_SOURCES = _LOCAL_PATHS.get("fire_video_sources", [
+    "dataset/smoke_detection_false_positives/fp_clouds_haze/false_positive",
+    "dataset/smoke_detection_false_positives/fp_dust_particles/false_positive",
+])
 CONF_THRESHOLD = 0.4
 OUTPUT_JSON = "detection_results_pyside.json"
 OUTPUT_JSON_SUMMARY = "detection_summary_pyside.json"

@@ -5,8 +5,24 @@ import math
 import os
 import torch
 import time
+import json
+from pathlib import Path
 
 # ---------------- CONFIGURATION ---------------- #
+def _load_local_paths() -> dict:
+    here = Path(__file__).resolve()
+    for base in [here.parent, *here.parents]:
+        cfg = base / ".local_paths.json"
+        if cfg.exists():
+            try:
+                return json.loads(cfg.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                return {}
+    return {}
+
+
+_LOCAL_PATHS = _load_local_paths()
+
 MODEL_PATH = 'models/yolov8x_person_face.pt'
 CONF_THRESHOLD = 0.5
 IOU_THRESHOLD = 0.45
@@ -26,10 +42,7 @@ DEFAULT_SPEED_PCT = 200
 FRAME_SKIP = 10  # Process every Nth frame (1 = all, 2 = half, etc.)
 
 # Data Sources
-DATA_SOURCES = [
-    # 'people_dataset_img',
-    '/media/mintmainog/c21d735b-a894-4487-8dc4-b83f31f0a84c/people_datasets/person_face_dataset_video',
-]
+DATA_SOURCES = _LOCAL_PATHS.get("person_detect_sources", ['people_dataset_img'])
 
 # Supported Extensions
 VALID_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.bmp', '.mp4', '.avi', '.mov', '.mkv'}

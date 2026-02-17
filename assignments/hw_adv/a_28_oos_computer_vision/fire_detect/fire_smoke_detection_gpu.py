@@ -13,7 +13,7 @@ MODEL_PATHS = [
     'models/firedetect-11x.pt',
 ]
 VIDEO_SOURCES = [
-    # "/media/mintmainog/c21d735b-a894-4487-8dc4-b83f31f0a84c/fire_dataset/smoke_videos.1407/pos",
+    # Add local dataset paths via .local_paths.json -> fire_video_sources
     "dataset/smoke_detection_false_positives_test/fp_clouds_haze/false_positive",
     "dataset/smoke_detection_false_positives_test/fp_dust_particles/false_positive",
 ]

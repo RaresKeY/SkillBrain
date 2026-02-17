@@ -3,15 +3,15 @@
 Generated (UTC): 2026-02-15 19:51:01
 
 ## Scope
-- Real dataset: `/home/mintmainog/workspace/vs_code_workspace/SkillBrain_Python_Homework_Fork/assignments/hw_adv/a_35_0_spam_ham/spam.csv` (5574 rows)
-- Custom dataset: `/home/mintmainog/workspace/vs_code_workspace/SkillBrain_Python_Homework_Fork/assignments/hw_adv/a_35_0_spam_ham/custom_test_dataset.csv` (24 rows)
+- Real dataset: `assignments/hw_adv/a_35_0_spam_ham/spam.csv` (5574 rows)
+- Custom dataset: `assignments/hw_adv/a_35_0_spam_ham/custom_test_dataset.csv` (24 rows)
 - Compared methods:
   - TF-IDF + MultinomialNB
   - Static embeddings v2 + LogisticRegression
 
 ## Model Data
 - Static embeddings repo: `LogicLark-QuantumQuill/static-embeddings-en-50m-v2`
-- Loaded embedding file: `/home/mintmainog/workspace/vs_code_workspace/SkillBrain_Python_Homework_Fork/assignments/hw_adv/a_35_0_spam_ham/models/LogicLark-QuantumQuill__static-embeddings-en-50m-v2/static_embeddings_en_50m_pruned_fp16_v2.safetensors`
+- Loaded embedding file: `assignments/hw_adv/a_35_0_spam_ham/models/LogicLark-QuantumQuill__static-embeddings-en-50m-v2/static_embeddings_en_50m_pruned_fp16_v2.safetensors`
 - Static train token coverage: 89.86%
 - Static holdout token coverage: 89.81%
 - Static custom token coverage: 98.25%
