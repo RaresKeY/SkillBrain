@@ -175,10 +175,16 @@ A larger surveillance architecture with configurable CLI run mode, GUI control p
 ### `a_30_facial_expression_pipeline`
 End-to-end facial-expression ML pipeline from data generation and labeling through features, training, and realtime inference tools.
 
-| | |
-|---|---|
-| ![a_30 landmark normalization preview](assignments/hw_adv/a_30_facial_expression_pipeline/landmark_norm_preview.png) | ![a_30 prediction sample 01](assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_01_male_middle_african_neutral_average.png) |
-| ![a_30 prediction sample 02](assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_02_female_elderly_asian_sad_average.png) | ![a_30 prediction sample 03](assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_03_male_young_indian_happy_average.png) |
+<table>
+  <tr>
+    <td><img src="assignments/hw_adv/a_30_facial_expression_pipeline/landmark_norm_preview.png" alt="a_30 landmark normalization preview"></td>
+    <td><img src="assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_01_male_middle_african_neutral_average.png" alt="a_30 prediction sample 01"></td>
+  </tr>
+  <tr>
+    <td><img src="assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_02_female_elderly_asian_sad_average.png" alt="a_30 prediction sample 02"></td>
+    <td><img src="assignments/hw_adv/a_30_facial_expression_pipeline/export/generated_face_predictions/a_30_pred_03_male_young_indian_happy_average.png" alt="a_30 prediction sample 03"></td>
+  </tr>
+</table>
 
 ### `a_31_iris_classification`
 Classic sklearn baseline project comparing SVM and Random Forest with saved models.
