@@ -184,6 +184,12 @@ Moves to a professional dashboard style with sidebar controls and management-ori
 ### `a_26_db_integration`
 Integrates Streamlit with SQLite for dataset persistence, query execution, and round-trip reads.
 
+Live app: [db-integration.streamlit.app](https://db-integration.streamlit.app/)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://db-integration.streamlit.app/?embed=true)
+
+[![a_26 db integration preview](assets/previews/a_26_db_integration_preview.svg)](https://db-integration.streamlit.app/?embed=true)
+
 ### `a_27_leet_code`
 Notebook-based algorithm drills spanning arrays, strings, validation problems, and search patterns.
 
