@@ -77,8 +77,12 @@ Covers loop control, runtime complexity tradeoffs, and geometry rendering both i
 ### `a_04_collections`
 Implements practical collection-driven mini systems and includes similarity/embedding datasets used for recommendation-style tasks.
 
-![a_04 t-SNE clusters](assignments/hw_adv/a_04_collections/data/tsne_clusters.png)
-![a_04 hobby heatmap](assignments/hw_adv/a_04_collections/data/heatmap_20.png)
+<table>
+  <tr>
+    <td align="center"><img src="assignments/hw_adv/a_04_collections/data/tsne_clusters.png" alt="a_04 t-SNE clusters" width="460"></td>
+    <td align="center"><img src="assignments/hw_adv/a_04_collections/data/heatmap_20.png" alt="a_04 hobby heatmap" width="460"></td>
+  </tr>
+</table>
 
 ### `a_05_functions`
 Refactors multi-step exercises into reusable functions and modules, including utility-style helper code.
@@ -116,9 +120,6 @@ Implements a richer cleaning pipeline with temporal slicing, pivot operations, N
 ### `a_18_matplotlib`
 Beginner charting exercises with multiple saved visual outputs and dashboard composition.
 
-![a_18 sales chart](assignments/hw_adv/a_18_matplotlib/sales.png)
-![a_18 weather chart](assignments/hw_adv/a_18_matplotlib/weather.png)
-![a_18 category prices](assignments/hw_adv/a_18_matplotlib/prices.png)
 ![a_18 2x2 dashboard](assignments/hw_adv/a_18_matplotlib/exercise5_2x2_dashboard.png)
 ![a_18 export dashboard](assignments/hw_adv/a_18_matplotlib/export/dashboard.png)
 
