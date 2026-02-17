@@ -7,8 +7,8 @@ The modules progress from Python fundamentals to data science, dashboards, compu
 
 - [Repository Layout](#repository-layout)
 - [Quick Start](#quick-start)
-- [Assignment Scope Map](#assignment-scope-map)
 - [Assignment Descriptions](#assignment-descriptions)
+- [Assignment Scope Map](#assignment-scope-map)
 - [Notes](#notes)
 
 ## Repository Layout
@@ -28,46 +28,6 @@ pip install -r requirements-all.txt
 ```
 
 Some assignments also provide local `requirements.txt` files for isolated environments.
-
-## Assignment Scope Map
-
-| Module | Scope | Primary Files |
-|---|---|---|
-| `a_03_loops` | loop/control-flow exercises, PIN lockout logic, ASCII/emoji geometry drawing, and plotting helpers | `tema3.py`, `tema_3.ipynb` |
-| `a_04_collections` | collections-heavy tasks: playlist/budget/activity assistants plus hobby similarity datasets and analysis | `tema_4_0_anunt.md`, `tema_4_*.ipynb` |
-| `a_05_functions` | functional refactors of earlier tasks plus helper package (`painting_on_water`) | `tema_05_*.py`, `painting_on_water/*.py` |
-| `a_06_oop` | OOP-oriented modeling and exploration (`mro`, class behavior), with supporting data assets | `senses.py`, `explore/*.py` |
-| `a_07_recap` | quiz generation and GUI playthrough backed by JSON question banks | `quiz_maker.py`, `quiz_gui.py`, `quizes.json` |
-| `a_08_9_data_struct` | data structures and algorithms: sorting, binary search, and complexity comparisons | `tema_8_9.py`, `tema_8_9.ipynb` |
-| `a_10_fleet_game` | package-based fleet routing game with CLI, pygame UI, and pytest suite | `main.py`, `main_pygame.py`, `tests/*` |
-| `a_11_hashing` | hashing techniques: duplicate detection, counters, hashmap, autocomplete | `hashing.ipynb` |
-| `a_12_caching_lru` | manual cache, LRU patterns, decorators, and cache performance comparisons | `caching_lru.ipynb` |
-| `a_13_14_numpy` | beginner and advanced NumPy exercises including broadcasting/vectorization | `13_task_beginner.ipynb`, `14_task_advanced.ipynb` |
-| `a_15_numpy` | NumPy bridge toward neural-network concepts | `numpy_advanced_intro_to_neural_nets.ipynb` |
-| `a_16_pandas` | DataFrame fundamentals, preparation, transformation, and export pipeline | `16_task_prepare.ipynb` |
-| `a_17_pandas` | cleaning pipeline on temporal data, pivoting, missing value strategy, reusable cleaning funcs | `17_task_clean.ipynb` |
-| `a_18_matplotlib` | beginner plotting tasks and exported chart/dashboard artifacts | `18_task_beginner.ipynb`, `export/*` |
-| `a_19_matplotlib` | advanced matplotlib dashboards, heatmaps, confidence visuals, and style variants | `19_task_advanced.ipynb`, `export/*` |
-| `a_20_21_seaborn` | structured seaborn curriculum and implementation notebook | `seaborn_task.MD`, `seaborn_task.ipynb` |
-| `a_22_plotly` | interactive/animated Plotly charts and HTML export workflows | `22_plotly.ipynb`, `22_plotly_1.py`, `export/*` |
-| `a_23_basic_dashboard` | Streamlit dashboard basics: filters, salary range controls, and KPI cards | `streamlit_app.py`, `app_utils.py` |
-| `a_24_advanced_analytics` | interactive analytics dashboard: scatter, correlation matrix, grouped summaries | `streamlit_app.py`, `app_utils.py` |
-| `a_25_professional_dashboard` | professionalized Streamlit layout: sidebar controls, payroll views, distribution charts | `streamlit_app.py`, `app_utils.py` |
-| `a_26_db_integration` | Streamlit + SQLite pipeline with SQL querying and import/export flow | `streamlit_app.py`, `employees.db` |
-| `a_27_leet_code` | curated LeetCode notebook set (Two Sum, Binary Search, DP, arrays/strings basics) | `leet_code.ipynb` |
-| `a_28_oos_computer_vision` | experimental CV stack: fire/smoke detection, DeepFace verification, YOLO person/face detection | `fire_detect/*.py`, `match_face/*.py`, `person_detect/*.py` |
-| `a_28_opencv` | OpenCV surveillance + smoke detection system with logging, snapshots, and warmup exercises | `opencv_surveillance_project/surveillance_system.py` |
-| `a_29_face_recognition` | modular surveillance platform (CLI + PySide6 control center) with YOLO integration and registry | `surveillance_core.py`, `surveillance_app.py`, `control_center_pyside6.py` |
-| `a_30_sklearn` | facial-expression pipeline: synthetic image generation, landmarks extraction, model training, realtime inference | `README.md`, `extract_landmarks.py`, `train_model*.py`, `realtime_emotion_detection.py` |
-| `a_31_iris_classification` | classical ML iris benchmark (SVM + Random Forest), evaluation, model serialization | `train_iris.py`, `evaluate_and_visualize.py` |
-| `a_32_advanced_regression` | real-estate regression benchmark with preprocessing pipelines, model comparison, diagnostics | `train_models.py`, `run_full_analysis.py`, `IMPROVING_TRAINING.md` |
-| `a_33_algorithmic` | rule-based medical classifier versus Random Forest comparison on breast cancer data | `breast_cancer_algorithmic_vs_ml.py` |
-| `a_34_p1` | word-frequency analysis and stylized wordcloud generation from text corpus | `word_freq.py`, `wordcloud_output.png` |
-| `a_35_0_spam_ham` | spam/ham NLP project: NB baselines, static-embedding classifier, automated comparison reporting | `README.md`, `spam_detect.py`, `train_spam_ham_static_v2.py` |
-| `a_35_1_mnist` | MNIST dense/CNN training, interactive PySide digit recognizer, activation/focus visualizations | `train_tensorflow.py`, `train_cnn.py`, `digit_recognizer_app.py` |
-| `a_36_iris_classification` | TensorFlow iris classifier with config-driven finetuning and reproducible training settings | `iris_classification.py`, `finetune_config.py` |
-| `a_37_cnn_fashion` | Fashion-MNIST CNN training, test visualizations, confusion/misclassification analysis | `fashion_cnn_train.py`, `fashion_cnn_test_visuals.py` |
-| `a_39_40_yolo_on_feed` | PySide6 + YOLO live feed application (YouTube/stream source), detection overlays, snapshot saves | `youtube_feed_pyside6_yolo.py`, `yolo_feed_config.py` |
 
 ## Assignment Descriptions
 
@@ -98,6 +58,9 @@ Combines sorting/search fundamentals with performance comparisons on larger synt
 
 ### `a_10_fleet_game`
 A full mini-project with package layout, game logic, route simulation, command-line run mode, pygame UI, and tests.
+
+![a_10 fleet game ui screenshot](assignments/hw_adv/a_10_fleet_game/export/ui_screenshot.png)
+![a_10 agent r evolution](assignments/hw_adv/a_10_fleet_game/export/agent_r_100_day_evolution.png)
 
 ### `a_11_hashing`
 Hands-on hashing practice for indexing, duplicate detection, counters, and custom hash structures.
@@ -239,6 +202,46 @@ Fashion-MNIST CNN workflow including training, evaluation graphics, and error an
 
 ### `a_39_40_yolo_on_feed`
 Live-stream YOLO detection app with PySide6 UI controls, model selection, and periodic detection snapshots.
+
+## Assignment Scope Map
+
+| Module | Scope | Primary Files |
+|---|---|---|
+| `a_03_loops` | loop/control-flow exercises, PIN lockout logic, ASCII/emoji geometry drawing, and plotting helpers | `tema3.py`, `tema_3.ipynb` |
+| `a_04_collections` | collections-heavy tasks: playlist/budget/activity assistants plus hobby similarity datasets and analysis | `tema_4_0_anunt.md`, `tema_4_*.ipynb` |
+| `a_05_functions` | functional refactors of earlier tasks plus helper package (`painting_on_water`) | `tema_05_*.py`, `painting_on_water/*.py` |
+| `a_06_oop` | OOP-oriented modeling and exploration (`mro`, class behavior), with supporting data assets | `senses.py`, `explore/*.py` |
+| `a_07_recap` | quiz generation and GUI playthrough backed by JSON question banks | `quiz_maker.py`, `quiz_gui.py`, `quizes.json` |
+| `a_08_9_data_struct` | data structures and algorithms: sorting, binary search, and complexity comparisons | `tema_8_9.py`, `tema_8_9.ipynb` |
+| `a_10_fleet_game` | package-based fleet routing game with CLI, pygame UI, and pytest suite | `main.py`, `main_pygame.py`, `tests/*` |
+| `a_11_hashing` | hashing techniques: duplicate detection, counters, hashmap, autocomplete | `hashing.ipynb` |
+| `a_12_caching_lru` | manual cache, LRU patterns, decorators, and cache performance comparisons | `caching_lru.ipynb` |
+| `a_13_14_numpy` | beginner and advanced NumPy exercises including broadcasting/vectorization | `13_task_beginner.ipynb`, `14_task_advanced.ipynb` |
+| `a_15_numpy` | NumPy bridge toward neural-network concepts | `numpy_advanced_intro_to_neural_nets.ipynb` |
+| `a_16_pandas` | DataFrame fundamentals, preparation, transformation, and export pipeline | `16_task_prepare.ipynb` |
+| `a_17_pandas` | cleaning pipeline on temporal data, pivoting, missing value strategy, reusable cleaning funcs | `17_task_clean.ipynb` |
+| `a_18_matplotlib` | beginner plotting tasks and exported chart/dashboard artifacts | `18_task_beginner.ipynb`, `export/*` |
+| `a_19_matplotlib` | advanced matplotlib dashboards, heatmaps, confidence visuals, and style variants | `19_task_advanced.ipynb`, `export/*` |
+| `a_20_21_seaborn` | structured seaborn curriculum and implementation notebook | `seaborn_task.MD`, `seaborn_task.ipynb` |
+| `a_22_plotly` | interactive/animated Plotly charts and HTML export workflows | `22_plotly.ipynb`, `22_plotly_1.py`, `export/*` |
+| `a_23_basic_dashboard` | Streamlit dashboard basics: filters, salary range controls, and KPI cards | `streamlit_app.py`, `app_utils.py` |
+| `a_24_advanced_analytics` | interactive analytics dashboard: scatter, correlation matrix, grouped summaries | `streamlit_app.py`, `app_utils.py` |
+| `a_25_professional_dashboard` | professionalized Streamlit layout: sidebar controls, payroll views, distribution charts | `streamlit_app.py`, `app_utils.py` |
+| `a_26_db_integration` | Streamlit + SQLite pipeline with SQL querying and import/export flow | `streamlit_app.py`, `employees.db` |
+| `a_27_leet_code` | curated LeetCode notebook set (Two Sum, Binary Search, DP, arrays/strings basics) | `leet_code.ipynb` |
+| `a_28_oos_computer_vision` | experimental CV stack: fire/smoke detection, DeepFace verification, YOLO person/face detection | `fire_detect/*.py`, `match_face/*.py`, `person_detect/*.py` |
+| `a_28_opencv` | OpenCV surveillance + smoke detection system with logging, snapshots, and warmup exercises | `opencv_surveillance_project/surveillance_system.py` |
+| `a_29_face_recognition` | modular surveillance platform (CLI + PySide6 control center) with YOLO integration and registry | `surveillance_core.py`, `surveillance_app.py`, `control_center_pyside6.py` |
+| `a_30_sklearn` | facial-expression pipeline: synthetic image generation, landmarks extraction, model training, realtime inference | `README.md`, `extract_landmarks.py`, `train_model*.py`, `realtime_emotion_detection.py` |
+| `a_31_iris_classification` | classical ML iris benchmark (SVM + Random Forest), evaluation, model serialization | `train_iris.py`, `evaluate_and_visualize.py` |
+| `a_32_advanced_regression` | real-estate regression benchmark with preprocessing pipelines, model comparison, diagnostics | `train_models.py`, `run_full_analysis.py`, `IMPROVING_TRAINING.md` |
+| `a_33_algorithmic` | rule-based medical classifier versus Random Forest comparison on breast cancer data | `breast_cancer_algorithmic_vs_ml.py` |
+| `a_34_p1` | word-frequency analysis and stylized wordcloud generation from text corpus | `word_freq.py`, `wordcloud_output.png` |
+| `a_35_0_spam_ham` | spam/ham NLP project: NB baselines, static-embedding classifier, automated comparison reporting | `README.md`, `spam_detect.py`, `train_spam_ham_static_v2.py` |
+| `a_35_1_mnist` | MNIST dense/CNN training, interactive PySide digit recognizer, activation/focus visualizations | `train_tensorflow.py`, `train_cnn.py`, `digit_recognizer_app.py` |
+| `a_36_iris_classification` | TensorFlow iris classifier with config-driven finetuning and reproducible training settings | `iris_classification.py`, `finetune_config.py` |
+| `a_37_cnn_fashion` | Fashion-MNIST CNN training, test visualizations, confusion/misclassification analysis | `fashion_cnn_train.py`, `fashion_cnn_test_visuals.py` |
+| `a_39_40_yolo_on_feed` | PySide6 + YOLO live feed application (YouTube/stream source), detection overlays, snapshot saves | `youtube_feed_pyside6_yolo.py`, `yolo_feed_config.py` |
 
 ## Notes
 
