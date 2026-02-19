@@ -289,13 +289,13 @@ def draw_plot_rotating(shape=6, fill="line", speed_deg=2, frames=360):
 
 
 # console
-# draw_square(5)
-# draw_right_triangle(5)
-# draw_inverted_pyramid(5)
-# draw_rhombus(3)
-# draw_circle(17, fill=True)
-# draw_circle_shape(28, shape=5, fill=False) # pentagon
-# draw_circle_shape(21, shape=6, fill=False) # hexagon
+draw_square(5)
+draw_right_triangle(5)
+draw_inverted_pyramid(5)
+draw_rhombus(3)
+draw_circle(17, fill=True)
+draw_circle_shape(28, shape=5, fill=False) # pentagon
+draw_circle_shape(21, shape=6, fill=False) # hexagon
 
 
 # matplotlib OLD
